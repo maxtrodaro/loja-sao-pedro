@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:vtex="http://www.vtex.com.br/2009/vtex-common"
+	xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce"
+	lang="en-us"
+>
+	<head>
+		<title>Via Nut - Institucional</title>
+		<vtex:metaTags />
+		<vtex:template id="metodo-scriptecss" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+
+	<body>
+		<!--  SubTemplate: Header -->
+		<vtex:template id="metodo-header" />
+		<!-- /SubTemplate: Header -->
+
+		<main class="ext">
+			<div class="int">
+				<!-- breadcrumb -->
+				<div class="bread-crumb">
+					<ul>
+						<li><a title="Página Home" href="/">Home</a></li>
+						<vtex:contentPlaceHolder id="Último Breadcrumb" />
+					</ul>
+				</div>
+				<!-- /breadcrumb -->
+
+				<div id="sidebar">
+					<ul id="menu-institucional">
+						<span class="title left">Navegue por aqui</span>
+						<vtex.cmc:menuInstitucional />
+					</ul>
+				</div>
+
+				<!-- conteudo -->
+				<div class="content-custom">
+					<vtex:contentPlaceHolder id="Conteudo da Página" />
+				</div>
+				<!-- /conteudo -->
+			</div>
+		</main>
+
+		<!--<!- -  SubTemplate: Footer -->
+		<vtex:template id="metodo-footer" />
+		<!-- /SubTemplate: Footer -->
+	</body>
+</html>

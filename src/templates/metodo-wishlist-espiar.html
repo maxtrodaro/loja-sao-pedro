@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce">
+<head>
+  <title>Favoritos</title>
+  <vtex:metaTags/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <vtex:template id="pngIeFix" />  
+  <link href="/arquivos/add-wishlist.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="wishlist-all list-load">
+    <div class="wishlist-header">
+      <div class="wishlist-image"></div>
+      <h1 class="wishlist-name"></h1>
+    </div>
+
+    <div class="wishlist-content">
+      <p class="selecione">Deseja adicionar a lista de desejos?</p>
+      <div class="wishlist-action">
+        <a class="close-wishlist cancel-wishlist">Cancelar</a>
+        <a class="add-wishlist">Adicionar</a>
+      </div>
+    </div>
+    
+    <div class="controle-wishlist">
+      <vtex.cmc:productName />
+      <vtex.cmc:ProductImage />
+      <vtex.cmc:GiftListInsertSkuV2 popup="false" />
+    </div>
+  </div>  
+
+<script type='text/javascript' src='/arquivos/add-wishlist.js'></script>
+<script language="javascript" type="text/javascript">  
+$(document).ready(function() { 
+  $('body').on('click', '.close-wishlist', function() {
+    window.top.window.closeIframe();
+  });
+});
+</script>
+</body>
+</html>

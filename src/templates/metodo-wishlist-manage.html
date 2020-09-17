@@ -1,0 +1,72 @@
+<!--
+pasta: loja/GiftList/Manage
+bodyclass: wishlist manage
+-->
+
+<!-- 
+  Controle Customizado: <vtex.cmc:wishlistVazio />
+
+  <h4>Ops!</h4>
+  <p>Infelizmente sua lista de favoritos ainda está vazia</p>
+  <p><b>É bem fácil salvar seus produtos em sua lista.
+  Basta navegar na loja e clicar no coração dos produtos que gostou.</b> 
+  </p>
+  <div class="voltar"><a href="/" class="c-btn">Voltar</a></div>
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce" lang="en-us">
+
+<head>
+    <title>Dlink | Lista de desejos</title>
+    <vtex:metaTags/>
+    <vtex:template id="dlink-scriptecss" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/arquivos/wishlist.css" type="text/css" rel="stylesheet" />
+    <link href="/arquivos/add-wishlist.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!--  SubTemplate: Header -->
+    <vtex:template id="dlink-header" />
+    <!-- /SubTemplate: Header -->
+
+  <!-- content -->
+  <main id="ext">
+
+    <div class="int">
+      <div class="container-1">
+        <div class="products-wishlist">
+
+          <div class="header-client">          
+            <h3>Olá! <span></span></h3>
+            <p>Bem vindo a sua lista de desejos. Abaixo estão todos os seus produtos favoritos</p>
+          </div>
+
+          <div class="sepb70 all-wishlist gt-load">
+            <!-- controle -->
+            <div class="hide" style="display: none;">
+              <vtex.cmc:GiftListManagerV2 />
+            </div>
+            <!-- controle -->
+
+            <div class="content-wishlist-vazio">
+              <vtex.cmc:wishlistVazio />
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+  </main>
+  <!-- content -->  
+    
+  <!-- footer -->
+  <vtex:template id="dlink-footer" />
+  <!-- footer -->
+
+  <script type='text/javascript' src='/arquivos/wishlist.js'></script>
+  
+</body>
+</html>

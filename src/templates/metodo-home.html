@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:vtex="http://www.vtex.com.br/2009/vtex-common"
+	xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce"
+	lang="pt-br"
+>
+	<head>
+		<title>Via Nut - Home</title>
+		<vtex:metaTags />
+		<vtex:template id="metodo-scriptecss" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+
+	<body>
+		<!--  SubTemplate: Header -->
+		<vtex:template id="metodo-header" />
+		<!-- /SubTemplate: Header -->
+
+		<div id="slider" class="banner-desktop">
+			<div id="responsiveSlider" class="banner">
+				<div>
+					<vtex:contentPlaceHolder id="Banner Principal" />
+				</div>
+			</div>
+		</div>
+
+		<div id="slider" class="banner-mobile">
+			<div id="responsiveSlider" class="banner">
+				<div>
+					<vtex:contentPlaceHolder id="Banner Principal Mobile" />
+				</div>
+			</div>
+		</div>
+
+		<section id="tarja" class="tarja-diferencial">
+			<vtex.cmc:TarjaBeneficios />
+		</section>
+
+		<main class="ext">
+			<div class="int">
+				<section id="tabs-home-01" class="line tabs-home">
+					<h2 class="title">
+						<vtex:contentPlaceHolder id="PrimeiraVitrineTitulo" />
+					</h2>
+					<div class="content-tabs">
+						<section id="shelf-01" class="shelf-carousel collection">
+							<vtex:contentPlaceHolder id="PrimeiraVitrine" />
+						</section>
+					</div>
+				</section>
+
+				<div id="content-banners" class="line qtd-2 banner-desktop">
+					<vtex:contentPlaceHolder id="Banner Central" />
+				</div>
+
+				<div id="content-banners" class="line qtd-2 banner-mobile">
+					<vtex:contentPlaceHolder id="Banner Central Mobile" />
+				</div>
+
+				<section id="tabs-home-02" class="line tabs-home">
+					<h2 class="title">
+						<vtex:contentPlaceHolder id="SegundaVitrineTitulo" />
+					</h2>
+
+					<div class="content-tabs">
+						<section id="shelf-01" class="shelf-carousel collection">
+							<vtex:contentPlaceHolder id="SegundaVitrine" />
+						</section>
+					</div>
+				</section>
+
+				<div id="content-banners" class="line qtd-2 banner-desktop">
+					<vtex:contentPlaceHolder id="Banner Central Dois" />
+				</div>
+
+				<div id="content-banners" class="line qtd-2 banner-mobile">
+					<vtex:contentPlaceHolder id="Banner Central Dois Mobile" />
+				</div>
+
+				<section id="tabs-home-03" class="line tabs-home">
+					<h2 class="title">
+						<vtex:contentPlaceHolder id="TerceiraVitrineTitulo" />
+					</h2>
+
+					<div class="content-tabs">
+						<section id="shelf-01" class="shelf-carousel collection">
+							<vtex:contentPlaceHolder id="TerceiraVitrine" />
+						</section>
+					</div>
+				</section>
+			</div>
+		</main>
+
+		<!--SubTemplate: Footer -->
+		<vtex:template id="metodo-footer" />
+		<!-- /SubTemplate: Footer -->
+
+		<script type="text/javascript" src="/arquivos/add-wishlist.js"></script>
+	</body>
+</html>

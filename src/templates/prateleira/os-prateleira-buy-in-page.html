@@ -1,0 +1,61 @@
+#set($id = $product.Id)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+#set($evaluationRate = $product.EvaluationRate)
+
+<article>
+    <a href="$uri">
+        <span class="shelf-img shelf-front">
+            $product.GetImageTag(29)
+        </span>
+        <h1>$escapedName</h1>
+        #if ($product.IsInStock)
+            <div class="rating-produto-$id ratingStar">$evaluationRate</div>
+            <span class="price">
+            #if ($product.HasBestPrice)
+                <span class="old-price">$product.ListPrice</span>
+                <span class="best-price">$product.BestPrice</span>
+                <span class="installment">
+                    #if ($product.NumbersOfInstallment > 1)
+                        ou ${product.NumbersOfInstallment}x de $product.InstallmentValue sem juros
+                    #end
+                </span>
+            #else
+                <span class="best-price">$product.BestPrice</span>
+                <span class="installment">
+                    #if ($product.NumbersOfInstallment > 1)
+                        ou <b>${product.NumbersOfInstallment}x</b> de <b>$product.InstallmentValue</b> sem juros
+                    #end
+                </span>
+            #end
+            </span>
+        #else
+            <strong class="sold-out">Acabou, por enquanto!</strong>
+        #end
+    </a>
+    
+    #if ($product.IsInStock)
+        <span class="btn-wishlist ico" title="Lista de desejos" rel="$id">Adicionar aos favoritos</span>
+        
+        <span class="show-action">
+            <span class="bt-comprar">
+                <span class="qtd">
+                    <span class="adicionar-qtd" rel="$id"></span>
+                    <span class="remover-qtd" rel="$id"></span>
+                    <input type="text" class="val-qtd-pt" id="qtd_$id" name="val-qtd" maxlength="3" value="1" />
+                </span>
+                <span class="add" rel="$id">
+                    <a rel="$id">Adicionar ao carrinho</a>
+                </span>
+            </span> 
+            <a href="$uri" class="bt-escolher">Adicionar ao carrinho</a>
+        </span>
+        <span style="display:none" class="tem-sku">$product.BottomBuyAsynchronous</span>
+    #end
+    
+</article>
+
+<!-- flags -->
+<div class="flags">
+    $product.HightLight
+</div>

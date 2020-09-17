@@ -1,0 +1,25 @@
+/*
+Usage example:
+
+.yourClass {
+	@include sombreado();
+}
+
+*/
+
+@mixin sombreado {
+	box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+}
+
+/*
+Usage example:
+
+.yourClass {
+	@include font-size-rem(16);
+}
+
+*/
+
+@mixin font-size-rem($pixels) {
+	font-size: ($pixels / 14) + rem;
+}

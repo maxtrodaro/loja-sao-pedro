@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:vtex="http://www.vtex.com.br/2009/vtex-common"
+	xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce"
+	lang="pt-br"
+>
+	<head>
+		<title>Via Nut - Categoria</title>
+		<vtex:metaTags />
+		<vtex:template id="metodo-scriptecss" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+
+	<body>
+		<!--  SubTemplate: Header -->
+		<vtex:template id="metodo-header" />
+		<!-- /SubTemplate: Header -->
+
+		<section id="tarja" class="tarja-diferencial">
+			<vtex.cmc:TarjaBeneficios />
+		</section>
+
+		<main class="ext">
+			<div class="int">
+				<!-- caminho -->
+				<vtex.cmc:breadCrumb />
+				<!-- caminho -->
+
+				<!-- filtro mobile -->
+				<div class="topo-categoria">
+					<a class="show-filter"><span>Mostrar filtros +</span></a>
+					<a class="show-order"><span>Ordenar +</span></a>
+					<div class="gtc-filtro">
+						<vtex.cmc:searchNavigator />
+					</div>
+					<div class="d-show-order">
+						<ul class="i-show-order">
+							<li><a href="" rel="OrderByPriceASC">Menor Preço</a></li>
+							<li><a href="" rel="OrderByPriceDESC">Maior Preço</a></li>
+							<li><a href="" rel="OrderByTopSaleDESC">Mais vendidos</a></li>
+							<li>
+								<a href="" rel="OrderByReviewRateDESC">Melhores avaliações</a>
+							</li>
+							<li><a href="" rel="OrderByNameASC">A - Z</a></li>
+							<li><a href="" rel="OrderByNameDESC">Z - A</a></li>
+							<li>
+								<a href="" rel="OrderByReleaseDateDESC">Data de lançamento</a>
+							</li>
+							<li>
+								<a href="" rel="OrderBySalePriceDESC">Desconto Percentual</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- /filtro mobile -->
+
+				<!-- filtro  desktop-->
+				<div id="sidebar">
+					<vtex.cmc:searchNavigator />
+				</div>
+				<!-- filtro -->
+
+				<!-- produtos -->
+				<section id="side-products">
+					<div id="banner-categoria">
+						<vtex:contentPlaceHolder id="Banner Principal" />
+					</div>
+					<!-- lista de produtos -->
+					<vtex.cmc:searchResult
+						layout="e804eada-7775-4671-bd31-48f4bcafced9"
+						itemCount="30"
+						columnCount="4"
+					/>
+					<!-- lista de produtos -->
+				</section>
+				<!-- /produtos -->
+			</div>
+		</main>
+
+		<!--SubTemplate: Footer -->
+		<vtex:template id="metodo-footer" />
+		<!-- /SubTemplate: Footer -->
+
+		<script type="text/javascript" src="/arquivos/add-wishlist.js"></script>
+		<script
+			type="text/javascript"
+			src="/arquivos/vtex-smartResearch.js?v=3"
+		></script>
+	</body>
+</html>

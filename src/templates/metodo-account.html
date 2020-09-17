@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:vtex="http://www.vtex.com.br/2009/vtex-common"
+	xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce"
+	lang="en-us"
+>
+	<head>
+		<title>Via Nut - Minha Conta</title>
+		<vtex:metaTags />
+		<vtex:template id="metodo-scriptecss" />
+		<link
+			href="/arquivos/metodo-account.css"
+			rel="stylesheet"
+			type="text/css"
+			media="all"
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+
+	<body class="client-account">
+		<!--  SubTemplate: Header -->
+		<vtex:template id="metodo-header" />
+		<!-- /SubTemplate: Header -->
+
+		<main class="ext">
+			<div class="int">
+				<section class="line header-client">
+					<h2><span>Minha conta</span></h2>
+					<h3>Olá! <span></span></h3>
+					<p>
+						Durante toda a sua navegação, você estará em um ambiente virtual
+						100% seguro, garantimos os padrões rígidos de segurança e
+						confidencialidade a fim de proteger suas informações.
+					</p>
+				</section>
+
+				<section class="line edit-client">
+					<!-- dados -->
+					<div class="col33A client-dados">
+						<h4>Meus dados</h4>
+						<vtex.cmc:accountUserProfile />
+					</div>
+					<!-- dados -->
+
+					<!-- address -->
+					<div class="col33A client-address">
+						<h4>Meus endereços</h4>
+						<vtex.cmc:accountAddress />
+					</div>
+					<!-- address -->
+
+					<!-- order -->
+					<div class="col33A client-order">
+						<h4>Meus pedidos</h4>
+						<p class="order-link">
+							<a href="/account/orders">Ver meus pedidos</a>
+						</p>
+						<div class="txt-order">
+							Clique no link acima para acompanhar seus <br />
+							pedidos realizados
+						</div>
+					</div>
+					<!-- order -->
+				</section>
+			</div>
+		</main>
+
+		<!--<!- -  SubTemplate: Footer -->
+		<vtex:template id="metodo-footer" />
+		<!-- /SubTemplate: Footer -->
+
+		<script src="/arquivos/metodo-account.js" type="text/javascript"></script>
+	</body>
+</html>

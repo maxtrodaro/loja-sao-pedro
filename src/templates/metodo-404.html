@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:vtex="http://www.vtex.com.br/2009/vtex-common"
+	xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce"
+	lang="en-us"
+>
+	<head>
+		<title><vtex.cmc:searchTitle /></title>
+		<vtex:metaTags />
+		<vtex:template id="metodo-scriptecss" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+
+	<body class="busca-vazia">
+		<!--  SubTemplate: Header -->
+		<vtex:template id="metodo-header" />
+		<!-- /SubTemplate: Header -->
+
+		<main class="ext">
+			<div class="int">
+				<div id="text-empty-search" class="line">
+					<h1>ERRO 404</h1>
+					<p>
+						Que pena, não encontramos resultados para sua pesquisa
+					</p>
+					<strong>Tudo bem. Quero tentar novamente</strong><br /><br />
+					<div class="search"><vtex.cmc:fullTextSearchBox /></div>
+				</div>
+
+				<section id="shelf-01" class="line collection suggestion">
+					<vtex:contentPlaceHolder id="Sugestao de compra" />
+				</section>
+			</div>
+		</main>
+
+		<!--SubTemplate: Footer -->
+		<vtex:template id="metodo-footer" />
+		<!-- /SubTemplate: Footer -->
+
+		<script type="text/javascript" src="/arquivos/add-wishlist.js"></script>
+	</body>
+</html>

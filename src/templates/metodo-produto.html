@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:vtex="http://www.vtex.com.br/2009/vtex-common"
+	xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce"
+	lang="en-us"
+>
+	<head>
+		<title><vtex.cmc:productPageTitle /></title>
+		<vtex:metaTags />
+		<vtex:template id="metodo-scriptecss" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Tags de Compartilhamento -->
+		<vtex.cmc:productRichSnippets />
+	</head>
+
+	<body>
+		<!-- indexacao no google -->
+		<vtex.cmc:productRichSnippets showGoogle="1" />
+
+		<!--  SubTemplate: Header -->
+		<vtex:template id="metodo-header" />
+		<!-- /SubTemplate: Header -->
+
+		<section id="tarja" class="tarja-diferencial">
+			<vtex.cmc:TarjaBeneficios />
+		</section>
+
+		<main class="ext">
+			<div class="int">
+				<section id="main-product">
+					<!-- caminho -->
+					<vtex.cmc:breadCrumb />
+					<!-- caminho -->
+
+					<div id="image-product">
+						<!-- foto -->
+						<vtex.cmc:ProductImage />
+						<!-- foto -->
+
+						<div class="move">
+							<a class="btn-wishlist ico" title="Lista de desejos"
+								>Lista de Desejos</a
+							>
+						</div>
+					</div>
+
+					<article id="about-product">
+						<!-- nome -->
+						<h1><vtex.cmc:productName /></h1>
+						<!-- nome -->
+
+						<div id="details-aside" class="line">
+							<div class="eq01">
+								<!-- avaliacao -->
+								<vtex.cmc:evaluationRate />
+							</div>
+							<div class="eq02">
+								<span>Cód. Ref.: </span>
+								<!-- referencia -->
+								<vtex.cmc:productReference />
+							</div>
+						</div>
+
+						<div id="brand-name">
+							<vtex.cmc:brandName />
+						</div>
+
+						<!-- grade -->
+						<div id="productSelect" class="line">
+							<vtex.cmc:skuRichSelection changeImage="1" />
+						</div>
+						<!-- grade -->
+
+						<!-- preco -->
+						<div id="prices" class="line">
+							<vtex.cmc:skuPrice />
+						</div>
+						<!-- preco -->
+
+						<!-- comprar -->
+						<div id="buy-product" class="line">
+							<p>Escolha a quantidade:</p>
+							<div id="qtd-product">
+								<button type="button" class="qtd-product__minus">
+									<vtex.cmc:minus />
+								</button>
+								<input
+									type="text"
+									value="1"
+									readonly="“true”"
+									class="qtd-product__input"
+								/>
+								<button type="button" class="qtd-product__plus">
+									<vtex.cmc:plus />
+								</button>
+							</div>
+							<div class="btn-buy">
+								<vtex.cmc:BuyButton />
+							</div>
+						</div>
+						<!-- comprar -->
+
+						<div class="line" id="c3">
+							<!-- frete -->
+							<div id="shipping" class="line">
+								<vtex.cmc:shippingValue />
+							</div>
+							<!-- frete -->
+
+							<!-- share -->
+							<div id="share">
+								<strong>Compartilhe: </strong>
+								<ul>
+									<li class="facebook">
+										<a href="" target="_blank">Facebook</a>
+									</li>
+									<li class="twitter">
+										<a href="" target="_blank">Twitter</a>
+									</li>
+									<li class="pinterest"><a href="#">Pinterest</a></li>
+									<li class="google-plus">
+										<a href="" target="_blank">Google Plus</a>
+									</li>
+								</ul>
+							</div>
+							<!-- share -->
+						</div>
+					</article>
+				</section>
+
+				<div id="extras" class="line">
+					<div class="titles">
+						<h1 data-target="description" class="title left description">
+							Descrição
+						</h1>
+						<h1 data-target="specification" class="title left specification">
+							Especificações
+						</h1>
+						<h2 data-target="review" class="title left review">Avaliações</h2>
+					</div>
+
+					<article id="texts" class="dropdown">
+						<div class="description">
+							<vtex.cmc:ProductDescription />
+						</div>
+						<div class="specification">
+							<vtex.cmc:productSpecification />
+						</div>
+						<div class="review">
+							<vtex.cmc:UserReview />
+						</div>
+					</article>
+				</div>
+
+				<!-- relacionados -->
+				<section class="line collection" id="qvvt">
+					<section id="tabs-home-01" class="line tabs-home">
+						<h2 class="title">
+							<vtex:contentPlaceHolder id="QuemViuTitulo" />
+						</h2>
+						<div class="content-tabs">
+							<section id="shelf-01" class="shelf-carousel collection">
+								<vtex:contentPlaceHolder id="Quem viu viu tambem" />
+							</section>
+						</div>
+					</section>
+				</section>
+				<!-- relacionados -->
+
+				<!-- relacionados -->
+				<section class="line collection">
+					<section id="tabs-home-01" class="line tabs-home">
+						<h2 class="title">
+							<vtex:contentPlaceHolder id="ProdutosTitulo" />
+						</h2>
+						<div class="content-tabs">
+							<section id="shelf-01" class="shelf-carousel collection">
+								<vtex:contentPlaceHolder id="Produtos Relacionados" />
+							</section>
+						</div>
+					</section>
+				</section>
+				<!-- relacionados -->
+			</div>
+		</main>
+
+		<!--SubTemplate: Footer -->
+		<vtex:template id="metodo-footer" />
+		<!-- /SubTemplate: Footer -->
+
+		<script type="text/javascript" src="/arquivos/add-wishlist.js"></script>
+	</body>
+</html>

@@ -1,0 +1,212 @@
+/*CLIENTE*/
+.header-client {
+  padding: 0 0 50px 0;
+  clear: both;
+  text-align: center; }
+
+.header-client h2 {
+  padding: 10px 0;
+  font-size: 22px;
+  color: #999;
+  background: url(/arquivos/sep-title.gif) repeat-x left center;
+  margin: 0;
+  font-weight: normal;
+  display: block;
+  clear: both; }
+
+.header-client h2 span {
+  display: inline-block;
+  background-color: #fff;
+  padding: 0 15px;
+  font-family: "italic", sans-serif; }
+
+.header-client h3 {
+  font-weight: normal;
+  font-size: 35px;
+  padding: 25px 0 15px;
+  margin: 0;
+  font-family: "bold", sans-serif; }
+
+.header-client p {
+  padding: 6px 200px;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.2; }
+
+/*WISHLIST*/
+/*cheio*/
+body.wishlist .giftlistproductsv2,
+body.wishlist .giftlistproductsv2 tbody,
+body.wishlist .giftlistproductsv2 tr,
+body.wishlist .giftlistproductsv2 td {
+  display: block;
+  box-sizing: border-box; }
+
+body.wishlist .giftlistproductsv2 tbody {
+  overflow: hidden; }
+
+body.wishlist .giftlistproductsv2 tr {
+  float: left;
+  width: 32.33%;
+  margin: 0 0.5% 20px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #eee;
+  box-shadow: 3px 3px 6px #eee; }
+
+body.wishlist .content-wishlist .no-product.message,
+body.wishlist .giftlistproductsv2 thead,
+body.wishlist .giftlistproductsv2 td.wished,
+body.wishlist .giftlistproductsv2 td.purchased,
+body.wishlist .giftlistproductsv2 td.checkuncheck,
+body.wishlist .giftlist-remove-sku {
+  display: none !important; }
+
+body.wishlist .giftlistproductsv2 td.image {
+  float: left;
+  width: 40%;
+  padding: 20px;
+  background: #f5f5f5; }
+
+body.wishlist .giftlistproductsv2 td.image img {
+  width: 100%;
+  height: auto;
+  display: block; }
+
+body.wishlist .giftlistproductsv2 td.name {
+  float: left;
+  width: 60%;
+  padding: 30px 5px 10px 15px;
+  font-size: 14px;
+  line-height: 1.2; }
+
+body.wishlist .giftlistproductsv2 td.price {
+  float: left;
+  width: 60%;
+  padding: 0 15px;
+  font-size: 25px;
+  font-family: "bold", sans-serif;
+  color: #000; }
+
+body.wishlist .giftlistproductsv2 td.actions {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 2px;
+  right: 2px; }
+
+body.wishlist .giftlistproductsv2 td.actions a {
+  display: block;
+  font-size: 0;
+  margin: 0 auto;
+  color: #fff;
+  background: transparent url(/arquivos/remove-item.png);
+  width: 20px;
+  height: 20px; }
+
+body.wishlist .ko-grid-pageLinks {
+  padding: 15px 0 0 0;
+  margin: 15px 0 0;
+  text-align: right; }
+
+body.wishlist .ko-grid-pageLinks span {
+  font-size: 0;
+  color: #fff;
+  /* display: block; */
+  padding: 0 0 3px; }
+
+body.wishlist .ko-grid-pageLinks span:before {
+  content: "P\00E1ginas";
+  color: #000;
+  font-size: 14px; }
+
+body.wishlist .ko-grid-pageLinks a {
+  color: #999;
+  font-size: 14px;
+  display: inline-block;
+  padding: 0 10px; }
+
+body.wishlist .ko-grid-pageLinks a.selected {
+  color: #000; }
+
+.bread-crumb {
+  padding-bottom: 0;
+  border: 0;
+  margin-top: 20px;
+  margin-bottom: 5px; }
+
+/*MODAL*/
+.ext-modal {
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 998; }
+
+.tpl-modal {
+  background: #fff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 997;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  border-radius: 4px; }
+
+.close-modal {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background: url(/arquivos/remove-item.png) no-repeat center center;
+  display: block;
+  font-size: 0;
+  text-indent: -9999px;
+  color: #fff; }
+
+.jn-wishlist {
+  width: 500px;
+  margin: -200px 0 0 -250px;
+  height: 400px;
+  text-align: center; }
+
+.jn-wishlist iframe {
+  width: 100%;
+  min-height: 400px; }
+
+.wishlist-all {
+  text-align: center;
+  padding: 0 20px; }
+
+.wishlist-login h2 {
+  font-weight: normal;
+  padding: 90px 20px 40px;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 1.2; }
+
+.wishlist-login h2 strong {
+  display: block;
+  font-family: "title", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: #999;
+  padding: 0 0 4px; }
+
+.wishlist-login .login-add {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 12px 0;
+  background: #00adef;
+  font-size: 14px;
+  width: 220px;
+  display: block;
+  border-radius: 4px;
+  text-align: center;
+  margin: 0 auto; }
+
+.wishlist-login .login-add:hover {
+  background: #0093ca; }
