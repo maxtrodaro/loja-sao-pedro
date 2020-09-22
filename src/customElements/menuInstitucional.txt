@@ -1,0 +1,15 @@
+<li>
+<a href="/institucional/quem-somos">Quem Somos</a>
+</li>
+<li>
+<a href="/institucional/nossas-lojas">Nossas Lojas</a>
+</li>
+<li>
+<a href="/institucional/fale-conosco">Fale Conosco</a>
+</li>
+<li>
+<a href="/institucional/politica-privacidade">Política de Privacidade</a>
+</li>
+<li>
+<a href="/institucional/trocas-devolucoes">Política de Envio e Troca e Devolução</a>
+</li>

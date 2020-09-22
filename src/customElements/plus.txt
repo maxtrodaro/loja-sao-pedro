@@ -1,0 +1,13 @@
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 71.78 71.78" style="enable-background:new 0 0 71.78 71.78;width: 20px;height: 20px;" xml:space="preserve">
+
+<g>
+	<g>
+		<path class="st0" d="M35.89,71.78C16.1,71.78,0,55.68,0,35.89S16.1,0,35.89,0s35.89,16.1,35.89,35.89S55.68,71.78,35.89,71.78z
+			 M35.89,5C18.86,5,5,18.86,5,35.89c0,17.03,13.86,30.89,30.89,30.89c17.03,0,30.89-13.86,30.89-30.89C66.78,18.86,52.92,5,35.89,5
+			z"></path>
+	</g>
+	<g>
+		<path class="st0" d="M49.89,38.49H38.75v11.83h-5.77V38.49H21.9v-5.25h11.08V21.47h5.77v11.77h11.14V38.49z"></path>
+	</g>
+</g>
+</svg>
