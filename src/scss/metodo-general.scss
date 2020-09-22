@@ -1152,9 +1152,8 @@ header#header div#top-content {
 
 #header .logo img {
 	height: 95px;
-	width: 100%;
+	width: auto;
 	display: block;
-	height: auto
 }
 
 ul#bem-vindos {
@@ -1738,7 +1737,7 @@ div#text-empty-search {
 .search input[type="text"] {
 	@include font-size-rem(14);
 	float: left;
-	color: $dark-black;
+	color: $tertiary-color;
 	margin-right: 0px;
 	border-radius: $border-radius-xl;
 	text-indent: 18px;
@@ -1747,7 +1746,7 @@ div#text-empty-search {
 	font-size: 12px;
 	border: 0;
 	width: 95%;
-	background-color: $tertiary-color;
+	background-color: $primary-color;
 	font-weight: normal;
 }
 
@@ -1767,7 +1766,7 @@ div#text-empty-search {
 	transition: all .15s ease;
 	backface-visibility: hidden;
 	top: 12%;
-	background: url('/arquivos/icon-search.png') no-repeat 20%;
+	background: url('/arquivos/icon-search.png?v=1') no-repeat 20%;
 	right: 8%;
 	background-color: transparent;
 	background-color: $primary-color;
@@ -8679,9 +8678,9 @@ footer#footer .col {
 				}
 
 				a {
-					color: $white;
+					color: $tertiary-color;
 					border-radius: $border-radius-lg;
-					border: 2px solid $details-color;
+					border: 2px solid $tertiary-color;
 					padding: 10px 25px;
 
 					@media #{$mobile} {
@@ -8691,6 +8690,7 @@ footer#footer .col {
 				&:first-child {
 					a {
 						background: $tertiary-color;
+						color: $primary-color;
 					}
 				}
 			}
@@ -8858,7 +8858,7 @@ footer#footer {
 
 		b {
 			@include font-size-rem(14);
-			color: $details-color;
+			color: $tertiary-color;
 		}
 	}
 
@@ -9019,7 +9019,7 @@ header#header {
 				svg {
 					width: 18px;
 					height: 18px;
-					fill: $details-color;
+					fill: $white;
 				}
 
 				p {
@@ -9153,8 +9153,6 @@ header#header {
 
 								a {
 									@include font-size-rem(16);
-									color: $light-grey;
-									font-weight: $font-weight-bold;
 								}
 							}
 
@@ -9186,7 +9184,7 @@ header#header {
 							width: 24px;
 							height: 24px;
 							border-radius: $border-radius-lg;
-							background-color: #808080;
+							background-color: $secondary-color;
 							bottom: 5px;
 						}
 					}
@@ -10426,7 +10424,7 @@ body.busca {
 }
 
 #tarja {
-	background: $tertiary-color;
+	background: $primary-color;
 	padding: 20px 0;
 
 	#benefícios {
@@ -10443,7 +10441,7 @@ body.busca {
 					flex-basis: 50%;
 				}
 				svg {
-					fill: $primary-color;
+					fill: $tertiary-color;
 					margin-right: 15px;
 
 					@media #{$mobile} {
@@ -10456,7 +10454,7 @@ body.busca {
 
 					h2 {
 						@include font-size-rem(18);
-						color: $primary-color;
+						color: $tertiary-color;
 						font-weight: $font-weight-bold;
 
 						@media #{$mobile} {
@@ -10466,7 +10464,7 @@ body.busca {
 
 					p {
 						font-size: 10.5px;
-						color: $grey;
+						color: $tertiary-color;
 
 						@media #{$mobile} {
 							@include font-size-rem(10);

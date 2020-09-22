@@ -15,7 +15,7 @@
 .new-address-link a,
 .order-link a {
 	display: block;
-	background: #25af5a;
+	background: $primary-color;
 	color: #fff;
 	text-align: center;
 	font-weight: 700;
@@ -28,7 +28,7 @@
 .edit-profile-link a:hover,
 .new-address-link a:hover,
 .order-link a:hover {
-	background: #1ccc60;
+	background: $primary-color;
 }
 
 .col33A {
@@ -91,7 +91,7 @@
 .edit-profile-link a:hover,
 .new-address-link a:hover,
 .order-link a:hover {
-	background: #1ccc60;
+	background: $primary-color;
 }
 
 .profile-detail-display-email,

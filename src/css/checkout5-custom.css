@@ -119,6 +119,10 @@ blockquote:before, blockquote:after {
   content: "";
   content: none; }
 
+a:hover,
+a:focus {
+  text-decoration: none !important; }
+
 q:before, q:after {
   content: "";
   content: none; }
@@ -777,11 +781,11 @@ li.link.pf-pj {
 
 #orderform-minicart-to-cart {
   display: block;
-  border: 2px solid #578e77;
+  border: 2px solid #cf0c1c;
   width: 99%;
   height: 33px;
   text-align: center;
-  color: #578e77;
+  color: #cf0c1c;
   line-height: 33px;
   font-size: 14px;
   margin-top: 5px;
@@ -790,7 +794,7 @@ li.link.pf-pj {
   #orderform-minicart-to-cart:hover {
     text-decoration: none;
     color: #fff;
-    background: #578e77; }
+    background: #cf0c1c; }
 
 .mini-cart tfoot .monetary {
   color: #000; }
@@ -1572,19 +1576,19 @@ tr.product-item {
 .accordion-toggle .link-box-edit,
 .vtex-omnishipping-1-x-summaryChange,
 .onda-v1 .blue {
-  color: #578e77 !important; }
+  color: #cf0c1c !important; }
 
 .vtex-omnishipping-1-x-deliveryChannelsToggle,
 .vtex-omnishipping-1-x-summaryChange,
 .vtex-omnishipping-1-x-summaryChange,
 .onda-v1 .b--blue {
-  border-color: #578e77 !important; }
+  border-color: #cf0c1c !important; }
 
 .vtex-omnishipping-1-x-deliveryChannelsToggle {
-  background-color: #578e77 !important; }
+  background-color: #cf0c1c !important; }
 
 .vtex-omnishipping-1-x-svg path {
-  fill: #578e77 !important; }
+  fill: #cf0c1c !important; }
 
 .vtex-omnishipping-1-x-addressSummaryActive .address-summary {
   background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='24' height='24'><path fill='$primary-color' d='M15.998,5.951L4,16.237V30c0,0.552,0.448,1,1,1h8v-8h6v8h8c0.552,0,1-0.448,1-1V16.238L15.998,5.951z M19,19 h-6v-5h6V19z'></path> <polygon fill='$primary-color' points='15.998,0.683 9,6.682 9,3 5,3 5,10.111 0.59,13.892 1.892,15.41 15.998,3.317 30.108,15.41 31.41,13.892 '></polygon></svg>") no-repeat !important; }

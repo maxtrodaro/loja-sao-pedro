@@ -119,6 +119,10 @@ blockquote:before, blockquote:after {
   content: "";
   content: none; }
 
+a:hover,
+a:focus {
+  text-decoration: none !important; }
+
 q:before, q:after {
   content: "";
   content: none; }
@@ -162,7 +166,7 @@ Usage example:
 .new-address-link a,
 .order-link a {
   display: block;
-  background: #25af5a;
+  background: #cf0c1c;
   color: #fff;
   text-align: center;
   font-weight: 700;
@@ -174,7 +178,7 @@ Usage example:
 .edit-profile-link a:hover,
 .new-address-link a:hover,
 .order-link a:hover {
-  background: #1ccc60; }
+  background: #cf0c1c; }
 
 .col33A {
   float: left;
@@ -227,7 +231,7 @@ Usage example:
 .edit-profile-link a:hover,
 .new-address-link a:hover,
 .order-link a:hover {
-  background: #1ccc60; }
+  background: #cf0c1c; }
 
 .profile-detail-display-email,
 .profile-detail-display h5 {
@@ -809,19 +813,19 @@ body.my-order .page-header,
 
 .bg-action-primary {
   color: #fff;
-  background: #578e77;
+  background: #cf0c1c;
   border: none; }
 
 .c-action-primary {
-  color: #578e77; }
+  color: #cf0c1c; }
 
 .b--action-primary {
-  border-color: #578e77; }
+  border-color: #cf0c1c; }
 
 .hover-b--action-primary:focus,
 .hover-b--action-primary:hover {
-  background: #70bb9d;
-  border-color: #70bb9d; }
+  background: #fff;
+  border-color: #fff; }
 
 .hover-b--action-secondary:focus,
 .hover-b--action-secondary:hover {
@@ -831,10 +835,10 @@ body.my-order .page-header,
   margin-top: 10px; }
 
 .client-dados .c-link {
-  color: #578e77; }
+  color: #cf0c1c; }
 
 .client-dados .b--action-primary {
-  border-color: #578e77; }
+  border-color: #cf0c1c; }
 
 .client-address {
   display: none; }
