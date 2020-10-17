@@ -10,7 +10,6 @@
         </span>
         <h1>$escapedName</h1>
         #if ($product.IsInStock)
-            <div class="rating-produto-$id ratingStar">$evaluationRate</div>
             <span class="price">
             #if ($product.HasBestPrice)
                 <span class="old-price">$product.ListPrice</span>
@@ -23,10 +22,10 @@
             #else
                 <span class="best-price">$product.BestPrice</span>
                 <span class="installment">
-                    #if ($product.NumbersOfInstallment > 1)
-                        ou <b>${product.NumbersOfInstallment}x</b> de <b>$product.InstallmentValue</b> sem juros
-                    #end
-                </span>
+					#if ($product.NumbersOfInstallment > 1)
+						$product.NumbersOfInstallment<span>x</span> de $product.InstallmentValue sem juros
+					#end
+				</span>
             #end
             </span>
         #else
@@ -34,17 +33,12 @@
         #end
     </a>
 
-    #if ($product.IsInStock)
-        <span class="btn-wishlist ico" title="Lista de desejos" rel="$id">Adicionar aos favoritos</span>
-    #end
-
-    <a href="$uri">        
-        <span class="shelf-action">
-            Quero este
-        </span>
-    </a>
-    
 </article>
+<a href="$uri">
+    <span class="shelf-action">
+        Comprar
+    </span>
+</a>
 
 <!-- flags -->
 <div class="flags">
