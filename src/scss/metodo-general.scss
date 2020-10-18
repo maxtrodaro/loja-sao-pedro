@@ -9658,7 +9658,7 @@ nav.nav-menu {
 				font-weight: $font-weight-bold;
 
 				&:before {
-					content: 'Marca:';
+					content: 'Marca: ';
 				}
 			}
 		}
@@ -9845,7 +9845,7 @@ nav.nav-menu {
 					&:before {
 						content: "";
 						display: inline-block;
-						background: url("/arquivos/addCart.png") no-repeat;
+						background: url("/arquivos/addCart.png?v=1") no-repeat;
 						width: 34px;
 						height: 33px;
 						filter: invert(1);
@@ -10004,14 +10004,14 @@ nav.nav-menu {
 						tr {
 							td {
 								border-right: 1px solid $primary-color;
-								color: $tertiary-color;
+								color: $black;
 								font-weight: $font-weight-bold;
 								padding: 3px;
 								text-align: center;
 
 								+td {
 									font-weight: $font-weight-bold;
-									color: $tertiary-color;
+									color: $black;
 									padding: 10px 3px;
 									@include font-size-rem(10);
 									line-height: 16px;
@@ -10237,7 +10237,6 @@ nav.nav-menu {
 }
 
 .prateleira {
-	min-height: 500px;
 	position: relative;
 
 	h2 {
@@ -10337,13 +10336,14 @@ nav.nav-menu {
 			}
 
 			&:before {
+				background: url("/arquivos/addCart.png?v=1") no-repeat;
 				content: "";
 				display: inline-block;
-				background: url("/arquivos/addCart.png") no-repeat;
-				width: 34px;
+				filter: invert(1);
 				height: 33px;
 				margin: 8px 15px 0 0;
 				margin-bottom: -8px;
+				width: 34px;
 
 				@media #{$mobile} {
 					margin-right: 0;

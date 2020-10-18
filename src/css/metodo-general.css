@@ -7875,7 +7875,7 @@ nav.nav-menu > ul.ready > li > a {
       color: #c3c3c3;
       font-weight: 700; }
       #main-product #about-product #brand-name a:before {
-        content: 'Marca:'; }
+        content: 'Marca: '; }
   @media (max-width: 767px) {
     #main-product #about-product #prices .descricao-preco {
       display: block;
@@ -8023,7 +8023,7 @@ nav.nav-menu > ul.ready > li > a {
         #main-product #about-product #buy-product .btn-buy .buy-button:before {
           content: "";
           display: inline-block;
-          background: url("/arquivos/addCart.png") no-repeat;
+          background: url("/arquivos/addCart.png?v=1") no-repeat;
           width: 34px;
           height: 33px;
           filter: invert(1);
@@ -8129,13 +8129,13 @@ nav.nav-menu > ul.ready > li > a {
       text-align: center; }
     #main-product #about-product #shipping #calculoFrete .content .freight-values tr td {
       border-right: 1px solid #cf0c1c;
-      color: #fff;
+      color: #000;
       font-weight: 700;
       padding: 3px;
       text-align: center; }
       #main-product #about-product #shipping #calculoFrete .content .freight-values tr td + td {
         font-weight: 700;
-        color: #fff;
+        color: #000;
         padding: 10px 3px;
         font-size: 0.71429rem;
         line-height: 16px;
@@ -8270,7 +8270,6 @@ nav.nav-menu > ul.ready > li > a {
       width: 50%; } }
 
 .prateleira {
-  min-height: 500px;
   position: relative; }
   .prateleira h2 {
     display: none; }
@@ -8341,13 +8340,14 @@ nav.nav-menu > ul.ready > li > a {
       .prateleira li .shelf-action {
         display: none; } }
     .prateleira li .shelf-action:before {
+      background: url("/arquivos/addCart.png?v=1") no-repeat;
       content: "";
       display: inline-block;
-      background: url("/arquivos/addCart.png") no-repeat;
-      width: 34px;
+      filter: invert(1);
       height: 33px;
       margin: 8px 15px 0 0;
-      margin-bottom: -8px; }
+      margin-bottom: -8px;
+      width: 34px; }
       @media (max-width: 767px) {
         .prateleira li .shelf-action:before {
           margin-right: 0; } }
