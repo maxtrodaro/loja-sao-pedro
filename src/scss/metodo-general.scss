@@ -2409,6 +2409,10 @@ nav.nav-menu>ul>li .destaque-menu img {
 	box-sizing: border-box;
 	text-align: center;
 	min-height: 440px;
+
+	@media #{$mobile} {
+		min-height: 410px;
+	}
 }
 
 #highlights .prateleira ul:not(.slick-dots) li {
@@ -8776,6 +8780,10 @@ footer#footer .col {
 }
 
 footer#footer {
+	@media #{$mobile} {
+		padding-top: 0;
+	}
+
 	.col {
 		text-transform: uppercase;
 
@@ -8955,7 +8963,9 @@ footer#footer {
 		white-space: nowrap;
 
 		@media #{$mobile} {
+			margin-top: 10px;
 			text-align: center;
+			white-space: normal;
 			width: 100%;
 		}
 
@@ -9435,7 +9445,7 @@ nav.nav-menu {
 				}
 				svg {
 					margin-right: 5px;
-					fill: $details-color;
+					fill: $white;
 				}
 
 				p {
@@ -9512,6 +9522,12 @@ nav.nav-menu {
 					}
 				}
 			}
+		}
+	}
+
+	.logo {
+		img {
+			width: 30%;
 		}
 	}
 }

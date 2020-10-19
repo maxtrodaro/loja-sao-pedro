@@ -198,14 +198,14 @@ a {
   text-decoration: none;
   cursor: pointer;
   color: #000;
-  transition: all .15s ease;
+  transition: all 0.15s ease;
   backface-visibility: hidden; }
   a:hover {
     color: #c3c3c3; }
 
 :after,
 :before {
-  transition: all .15s ease;
+  transition: all 0.15s ease;
   backface-visibility: hidden; }
 
 p {
@@ -230,7 +230,7 @@ input:focus {
   font-family: "Lato", sans-serif !important; }
 
 i {
-  font-family: 'FontAwesome' !important; }
+  font-family: "FontAwesome" !important; }
 
 /* grid*/
 .ext {
@@ -359,7 +359,7 @@ i {
   top: -12px; }
 
 .transition {
-  transition: all .2s ease;
+  transition: all 0.2s ease;
   backface-visibility: hidden; }
 
 .modal p {
@@ -399,7 +399,7 @@ i {
   max-width: 180px;
   margin-bottom: 5px; }
   #header .logo img {
-    width: 100%; }
+    width: 40%; }
 
 @media (max-width: 767px) {
   #header > .int {
@@ -511,7 +511,7 @@ body .cart-links-bottom {
     background: url("/arquivos/arrow-left.png") no-repeat;
     position: relative;
     top: 3px;
-    transition: all .2s ease-in; }
+    transition: all 0.2s ease-in; }
   .link-choose-more-products-wrapper #cart-choose-more-products:hover {
     text-decoration: none;
     color: #000;
@@ -609,7 +609,7 @@ body table.table {
   width: 25px;
   float: right; }
   .icon-remove:hover {
-    opacity: .7;
+    opacity: 0.7;
     filter: alpha(opacity=70); }
 
 body.body-order-form table.table {
@@ -733,13 +733,13 @@ li.link.pf-pj {
   border: none !important; }
 
 #is-corporate-client:hover {
-  opacity: .8; }
+  opacity: 0.8; }
 
 #change-other-shipping-option {
   margin-top: 15px;
   font-size: 13px; }
   #change-other-shipping-option:hover {
-    opacity: .8; }
+    opacity: 0.8; }
 
 .summary-coupon {
   clear: right;
@@ -1179,7 +1179,7 @@ body .btn-place-order-wrapper {
 .body-checkout-confirmation .cconf-myorders-button:hover {
   background: #ff0000;
   color: #fff;
-  transition: all .15s linear; }
+  transition: all 0.15s linear; }
 
 #buscando-lojas {
   position: absolute;
@@ -1482,7 +1482,7 @@ footer#footer #payment-forms ul li {
   margin-right: 3px; }
 
 body.body-cart .full-cart .cart-links-bottom .btn-success:after {
-  content: 'Finalizar Compra';
+  content: "Finalizar Compra";
   font-size: 15px; }
 
 .body-order-form button#btn-client-pre-email {

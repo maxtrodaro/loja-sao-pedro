@@ -50,7 +50,7 @@ a {
 	text-decoration: none;
 	cursor: pointer;
 	color: $black;
-	transition: all .15s ease;
+	transition: all 0.15s ease;
 	backface-visibility: hidden;
 
 	&:hover {
@@ -60,7 +60,7 @@ a {
 
 :after,
 :before {
-	transition: all .15s ease;
+	transition: all 0.15s ease;
 	backface-visibility: hidden;
 }
 
@@ -91,7 +91,7 @@ input:focus {
 }
 
 i {
-	font-family: 'FontAwesome' !important;
+	font-family: "FontAwesome" !important;
 }
 
 /* grid*/
@@ -256,7 +256,7 @@ i {
 }
 
 .transition {
-	transition: all .2s ease;
+	transition: all 0.2s ease;
 	backface-visibility: hidden;
 }
 
@@ -270,7 +270,7 @@ i {
 	background-color: $white;
 	border-bottom: 1px solid $light-black;
 
-	>.int {
+	> .int {
 		padding-bottom: 10px;
 		margin-bottom: 5px;
 		padding-top: 15px;
@@ -309,13 +309,13 @@ i {
 		margin-bottom: 5px;
 
 		img {
-			width: 100%;
+			width: 40%;
 		}
 	}
 }
 
 @media #{$mobile} {
-	#header>.int {
+	#header > .int {
 		flex-direction: column;
 		justify-content: unset;
 		align-items: unset;
@@ -458,7 +458,7 @@ body {
 		background: url("/arquivos/arrow-left.png") no-repeat;
 		position: relative;
 		top: 3px;
-		transition: all .2s ease-in;
+		transition: all 0.2s ease-in;
 	}
 
 	&:hover {
@@ -505,7 +505,7 @@ body {
 	margin: 5px 0 !important;
 }
 
-body .summary-totalizers>* {
+body .summary-totalizers > * {
 	display: block;
 	width: 100%;
 	float: right;
@@ -516,8 +516,7 @@ body .summary-totalizers>* {
 		display: none;
 	}
 
-	.shipping-calculate+tfoot tr:last-child {
-
+	.shipping-calculate + tfoot tr:last-child {
 		.info,
 		.monetary {
 			color: $black;
@@ -584,7 +583,8 @@ body table.table {
 }
 
 .icon-remove {
-	background: rgba(0, 0, 0, 0) url(/arquivos/icon-trash.png) no-repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) url(/arquivos/icon-trash.png) no-repeat scroll 0
+		0;
 	color: $white;
 	display: block !important;
 	font-size: 0;
@@ -595,7 +595,7 @@ body table.table {
 	float: right;
 
 	&:hover {
-		opacity: .7;
+		opacity: 0.7;
 		filter: alpha(opacity=70);
 	}
 }
@@ -609,7 +609,7 @@ body.body-order-form table.table {
 }
 
 .shipping-calculate *,
-.full-cart .summary-totalizers .shipping-calculate+tfoot tr:first-child {
+.full-cart .summary-totalizers .shipping-calculate + tfoot tr:first-child {
 	border: 0 !important;
 }
 
@@ -666,7 +666,6 @@ input#cart-coupon {
 }
 
 .cart-fixed.cart-fixed-transition {
-
 	&.affix-top .payment-submit-wrap .btn-success#payment-data-submit,
 	&.affix .payment-submit-wrap .btn-success#payment-data-submit {
 		/*  top: initial !important; */
@@ -756,12 +755,12 @@ li.link.pf-pj {
 }
 
 #is-corporate-client:hover {
-	opacity: .8;
+	opacity: 0.8;
 }
 
 #change-other-shipping-option {
 	&:hover {
-		opacity: .8;
+		opacity: 0.8;
 	}
 
 	margin-top: 15px;
@@ -778,7 +777,7 @@ li.link.pf-pj {
 	font-weight: 700 !important;
 	color: $black;
 
-	+span {
+	+ span {
 		font-weight: 700 !important;
 		color: $black;
 	}
@@ -855,7 +854,6 @@ li.link.pf-pj {
 }
 
 p {
-
 	&.client-first-name,
 	&.client-last-name,
 	&.client-document,
@@ -1048,7 +1046,7 @@ body table.table .quantity input {
 .client-pre-email-h label {
 	text-align: center;
 
-	>* {
+	> * {
 		display: block;
 		float: none;
 		line-height: 38px;
@@ -1307,9 +1305,8 @@ body {
 	}
 
 	.cconf-address {
-
 		*,
-		~div * {
+		~ div * {
 			box-shadow: none !important;
 		}
 	}
@@ -1330,7 +1327,7 @@ body {
 	.cconf-myorders-button:hover {
 		background: $red;
 		color: $white;
-		transition: all .15s linear;
+		transition: all 0.15s linear;
 	}
 }
 
@@ -1431,7 +1428,7 @@ footer#footer {
 	#operation {
 		margin-top: 48px;
 
-		>strong {
+		> strong {
 			display: block;
 			margin-bottom: 23px;
 			color: $black;
@@ -1439,7 +1436,7 @@ footer#footer {
 	}
 
 	.col.eq01 {
-		>strong {
+		> strong {
 			font-size: 38px;
 			font-weight: normal;
 			display: block;
@@ -1610,7 +1607,7 @@ footer#footer {
 			border: 0;
 		}
 
-		.coupon-fieldset>div,
+		.coupon-fieldset > div,
 		.monetary.form-postal-code.forms {
 			/*  display: block !important; */
 			border: 0 !important;
@@ -1780,7 +1777,7 @@ footer#footer #payment-forms ul li {
 }
 
 body.body-cart .full-cart .cart-links-bottom .btn-success:after {
-	content: 'Finalizar Compra';
+	content: "Finalizar Compra";
 	font-size: 15px;
 }
 
@@ -1794,7 +1791,6 @@ body.body-cart .full-cart .cart-links-bottom .btn-success {
 
 @media screen and (max-width: 920px) {
 	.payment-data {
-
 		.payment-group,
 		.link-gift-card {
 			position: relative;
@@ -1898,7 +1894,6 @@ tr.product-item {
 }
 
 .CardForm {
-
 	div,
 	p {
 		margin-bottom: 15px;
@@ -1930,7 +1925,8 @@ tr.product-item {
 }
 
 .vtex-omnishipping-1-x-addressSummaryActive .address-summary {
-	background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='24' height='24'><path fill='$primary-color' d='M15.998,5.951L4,16.237V30c0,0.552,0.448,1,1,1h8v-8h6v8h8c0.552,0,1-0.448,1-1V16.238L15.998,5.951z M19,19 h-6v-5h6V19z'></path> <polygon fill='$primary-color' points='15.998,0.683 9,6.682 9,3 5,3 5,10.111 0.59,13.892 1.892,15.41 15.998,3.317 30.108,15.41 31.41,13.892 '></polygon></svg>") no-repeat !important;
+	background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='24' height='24'><path fill='$primary-color' d='M15.998,5.951L4,16.237V30c0,0.552,0.448,1,1,1h8v-8h6v8h8c0.552,0,1-0.448,1-1V16.238L15.998,5.951z M19,19 h-6v-5h6V19z'></path> <polygon fill='$primary-color' points='15.998,0.683 9,6.682 9,3 5,3 5,10.111 0.59,13.892 1.892,15.41 15.998,3.317 30.108,15.41 31.41,13.892 '></polygon></svg>")
+		no-repeat !important;
 }
 
 .SecurityEnvironmentIcon {
