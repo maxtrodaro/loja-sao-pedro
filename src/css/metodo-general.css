@@ -1261,7 +1261,7 @@ div#text-empty-search {
   background-color: #fff;
   z-index: 98;
   padding: 15px 0 10px 15px;
-  top: 67px;
+  top: 38px;
   left: 0;
   box-sizing: border-box; }
 
@@ -2256,7 +2256,7 @@ nav.nav-menu > ul > li .destaque-menu img {
   border-radius: 10px; }
 
 .prateleira li article strong.sold-out {
-  min-height: 230px;
+  min-height: 60px;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -8423,7 +8423,7 @@ body.busca #tarja {
   #tarja #benefícios .benefícios__list {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap; }
     #tarja #benefícios .benefícios__list li {
       display: flex;
