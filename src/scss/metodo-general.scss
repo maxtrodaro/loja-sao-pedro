@@ -1314,7 +1314,8 @@ div#text-empty-search {
 }
 
 #mob-header .line.eq02 {
-	text-align: center
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 /*menu mobile*/
@@ -7658,7 +7659,7 @@ footer#footer .col {
 
 @media only screen and (max-width: 980px) {
 	body {
-		padding-top: 150px !important;
+		padding-top: 110px !important;
 	}
 
 	/*header*/
