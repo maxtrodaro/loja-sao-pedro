@@ -1412,7 +1412,8 @@ div#text-empty-search {
 }
 
 .menu-mobile .nivel-1.active {
-	left: 0
+	left: 0;
+	display: block !important;
 }
 
 .menu-mobile .nivel-2 {
@@ -2155,7 +2156,8 @@ nav.nav-menu>ul>li {
 
 .nivel-1 ul {
 	overflow: hidden;
-	margin-bottom: 30px
+	margin-bottom: 30px;
+	font-size: 0
 }
 
 .nivel-1 ul li a:hover {
@@ -2298,7 +2300,7 @@ nav.nav-menu>ul>li .nivel-2 h2 {
 }
 
 nav.nav-menu>ul>li .nivel-2 {
-	width: 65%;
+	width: 100%;
 	float: left;
 	padding-left: 5%;
 	padding-top: 25px;
@@ -8755,6 +8757,10 @@ footer#footer .col {
 			height: 25px !important;
 			fill: $primary-color;
 
+			path {
+				fill: $primary-color;
+			}
+
 			@media #{$mobile} {
 				width: 35px;
 				height: 35px;
@@ -9254,6 +9260,12 @@ nav.nav-menu {
 			>li {
 				padding: 15px 0;
 
+				&:hover {
+					.nivel-1 {
+						display: block !important;
+					}
+				}
+
 				&:not(:first-child) {
 					&:hover {
 						.nivel-1 {
@@ -9285,6 +9297,7 @@ nav.nav-menu {
 						}
 
 						ul {
+							font-size: 0;
 							margin: 0;
 
 							li {
@@ -9423,6 +9436,10 @@ nav.nav-menu {
 						margin-left: 0 !important;
 						width: 18px;
 						height: 18px;
+
+						path {
+							fill: $primary-color;
+						}
 					}
 				}
 
@@ -9496,7 +9513,7 @@ nav.nav-menu {
 				.linkCont03 {
 					a {
 						@include font-size-rem(16);
-						color: $tertiary-color;
+						color: $primary-color;
 					}
 				}
 			}
@@ -10596,36 +10613,52 @@ body.busca {
 		}
 	}
 
-		.btn-load-more {
-			text-align: center;
+	.prateleira {
+		position: relative;
 
-			span {
-				@include font-size-rem(20);
-				display: inline-block;
-				padding: 10px 25px;
-				border-radius: $border-radius-sm;
-				background: $primary-color;
-				color: $white;
-				cursor: pointer;
-				transition: 0.2s ease-in;
+		ul {
+			padding: 0;
 
-				&:hover {
-					background: $tertiary-color;
+			li {
+				width: 25%;
+
+				@media #{$mobile} {
+					width: 49%;
 				}
 			}
 		}
+	}
 
-		.no-more-results {
-			text-align: center;
-			margin-bottom: 20px;
+	.btn-load-more {
+		text-align: center;
 
-			span {
-				@include font-size-rem(20);
-				display: inline-block;
-				color: $tertiary-color;
-				transition: 0.2s ease-in;
+		span {
+			@include font-size-rem(20);
+			display: inline-block;
+			padding: 10px 25px;
+			border-radius: $border-radius-sm;
+			background: $primary-color;
+			color: $white;
+			cursor: pointer;
+			transition: 0.2s ease-in;
+
+			&:hover {
+				background: $tertiary-color;
 			}
 		}
+	}
+
+	.no-more-results {
+		text-align: center;
+		margin-bottom: 20px;
+
+		span {
+			@include font-size-rem(20);
+			display: inline-block;
+			color: $tertiary-color;
+			transition: 0.2s ease-in;
+		}
+	}
 }
 
 .topo-categoria {

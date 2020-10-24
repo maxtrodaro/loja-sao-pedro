@@ -11,5 +11,5 @@
 <a href="/institucional/politica-privacidade">Política de Privacidade</a>
 </li>
 <li>
-<a href="/institucional/trocas-devolucoes">Troca e Devolução</a>
+<a href="/institucional/trocas-devolucoes">Política de envio</a>
 </li>

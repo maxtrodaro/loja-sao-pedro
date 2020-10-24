@@ -1,0 +1,305 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+a:hover,
+a:focus {
+  text-decoration: none !important; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+button {
+  background-color: transparent;
+  border: 0; }
+
+ol,
+ul,
+li {
+  list-style: none; }
+
+/*
+Usage example:
+
+.yourClass {
+	@include sombreado();
+}
+
+*/
+/*
+Usage example:
+
+.yourClass {
+	@include font-size-rem(16);
+}
+
+*/
+.int,
+.container {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  max-width: 1175px; }
+
+.col70 {
+  float: left;
+  width: 70%; }
+
+.col {
+  box-sizing: border-box;
+  float: left; }
+
+#header > .int {
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+#header .security-top {
+  margin-top: 6px; }
+  #header .security-top img {
+    display: block; }
+
+#header .logo {
+  font-size: 38px;
+  color: #404040;
+  display: block;
+  max-width: 180px;
+  margin-bottom: 5px; }
+  #header .logo img {
+    width: 40%; }
+
+footer#footer {
+  padding-bottom: 25px;
+  margin-top: 0;
+  padding-top: 20px;
+  background: #f7f7f7;
+  color: #fff; }
+  footer#footer .col {
+    font-size: 13px;
+    line-height: 30px; }
+    footer#footer .col.eq01 {
+      width: 31%; }
+    footer#footer .col.eq02 {
+      width: 19%; }
+    footer#footer .col.eq03 {
+      width: 25%; }
+    footer#footer .col.eq04 {
+      width: auto;
+      float: left; }
+    footer#footer .col h4 {
+      font-size: 14px;
+      color: #000;
+      margin-bottom: 22px;
+      font-weight: 700; }
+    footer#footer .col a {
+      font-size: 13px;
+      line-height: 30px; }
+      footer#footer .col a:hover {
+        color: #000; }
+
+#footer-info {
+  padding-top: 45px;
+  border-top: 1px solid #404040;
+  margin-top: 35px;
+  float: left;
+  width: 100%; }
+
+footer#footer .col.eq03 .about-footer {
+  margin-bottom: 20px; }
+  footer#footer .col.eq03 .about-footer a {
+    display: block;
+    width: 177px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 45px;
+    background-color: #93c050;
+    color: #fff;
+    border-radius: 3px; }
+    footer#footer .col.eq03 .about-footer a:hover {
+      background-color: #93c050; }
+
+footer#footer #operation {
+  margin-top: 48px; }
+  footer#footer #operation > strong {
+    display: block;
+    margin-bottom: 23px;
+    color: #000; }
+
+footer#footer .col.eq01 > strong {
+  font-size: 38px;
+  font-weight: normal;
+  display: block;
+  margin-bottom: 26px; }
+
+footer#footer .col.eq01 .contact li {
+  line-height: 30px; }
+  footer#footer .col.eq01 .contact li:before {
+    content: "";
+    width: 20px;
+    height: 19px;
+    background: url("/arquivos/sprite.png") no-repeat;
+    display: inline-block;
+    margin-right: 28px;
+    position: relative;
+    top: 6px; }
+  footer#footer .col.eq01 .contact li.eq01:before {
+    background-position: -798px -3px; }
+  footer#footer .col.eq01 .contact li.eq02:before {
+    background-position: -832px -1px;
+    height: 23px; }
+  footer#footer .col.eq01 .contact li.eq03:before {
+    background-position: -864px -2px; }
+
+footer#footer #payment-forms ul {
+  margin-right: 4.81%;
+  float: left; }
+  footer#footer #payment-forms ul span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #404040;
+    font-weight: 700; }
+  footer#footer #payment-forms ul li {
+    display: inline-block;
+    margin-right: 8px; }
+
+footer#footer #security ul li {
+  float: left;
+  margin-right: 10px; }
+  footer#footer #security ul li:last-child {
+    margin-right: 0; }
+
+@media only screen and (max-width: 1220px) {
+  footer#footer .col#security {
+    clear: left;
+    margin-top: 20px; }
+  #payment-forms {
+    width: auto !important;
+    min-width: initial;
+    float: none; } }
