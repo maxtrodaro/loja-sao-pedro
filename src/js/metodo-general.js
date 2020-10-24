@@ -227,7 +227,7 @@ var MenuConfig = function () {
 				esse.fadeOut();
 			}, 100);
 		});
-	}, 500);
+	}, 1000);
 
 	//verifica a necessidade de dividir categorias em colunas
 	$("nav#nav-menu > ul > li .nivel-2").each(function () {
