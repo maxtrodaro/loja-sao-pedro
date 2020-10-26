@@ -71,6 +71,31 @@ var MenuConfig = function () {
 										res.children[9] &&
 										`<li><a href=${res.children[9].url}>${res.children[9].name}</a></li>`
 									}
+									${
+										res.children &&
+										res.children[10] &&
+										`<li><a href=${res.children[10].url}>${res.children[10].name}</a></li>`
+									}
+									${
+										res.children &&
+										res.children[11] &&
+										`<li><a href=${res.children[11].url}>${res.children[11].name}</a></li>`
+									}
+									${
+										res.children &&
+										res.children[12] &&
+										`<li><a href=${res.children[12].url}>${res.children[12].name}</a></li>`
+									}
+									${
+										res.children &&
+										res.children[13] &&
+										`<li><a href=${res.children[13].url}>${res.children[13].name}</a></li>`
+									}
+									${
+										res.children &&
+										res.children[14] &&
+										`<li><a href=${res.children[14].url}>${res.children[14].name}</a></li>`
+									}
 								</ul>
 							</div>
 						</div>
@@ -133,6 +158,31 @@ var MenuConfig = function () {
 									res.children &&
 									res.children[9] &&
 									`<li><a href=${res.children[9].url}>${res.children[9].name}</a></li>`
+								}
+								${
+									res.children &&
+									res.children[10] &&
+									`<li><a href=${res.children[10].url}>${res.children[10].name}</a></li>`
+								}
+								${
+									res.children &&
+									res.children[11] &&
+									`<li><a href=${res.children[11].url}>${res.children[11].name}</a></li>`
+								}
+								${
+									res.children &&
+									res.children[12] &&
+									`<li><a href=${res.children[12].url}>${res.children[12].name}</a></li>`
+								}
+								${
+									res.children &&
+									res.children[13] &&
+									`<li><a href=${res.children[13].url}>${res.children[13].name}</a></li>`
+								}
+								${
+									res.children &&
+									res.children[14] &&
+									`<li><a href=${res.children[14].url}>${res.children[14].name}</a></li>`
 								}
 							</ul>
 						</div>
@@ -227,6 +277,14 @@ var MenuConfig = function () {
 				esse.fadeOut();
 			}, 100);
 		});
+
+		if ($(".my_login a#login").length) {
+			$(".l-login").removeClass("logged");
+			$(".l-login").addClass("no-logged");
+		} else {
+			$(".l-login").removeClass("no-logged");
+			$(".l-login").addClass("logged");
+		}
 	}, 1000);
 
 	//verifica a necessidade de dividir categorias em colunas
