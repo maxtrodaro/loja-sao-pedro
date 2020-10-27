@@ -1909,32 +1909,6 @@ $(document).ajaxStop(function () {
 		resumeItemsFilter();
 		fixLabelMultiple();
 	}
-
-	$(".shelf-carousel.collection > div > ul").slick({
-		dots: false,
-		slidesToShow: 5,
-		lazyLoad: "ondemand",
-		responsive: [
-			{
-				breakpoint: 1000,
-				settings: {
-					slidesToShow: 5,
-				},
-			},
-			{
-				breakpoint: 768,
-				settings: {
-					slidesToShow: 3,
-				},
-			},
-			{
-				breakpoint: 480,
-				settings: {
-					slidesToShow: 2,
-				},
-			},
-		],
-	});
 });
 
 $(window).load(function () {
@@ -1949,6 +1923,33 @@ $(window).load(function () {
 
 		//inclui um texto no input de CEP
 		$("input#txtCep").attr("placeholder", "Digite o CEP");
+
+
+		$(".shelf-carousel.collection > div > ul").slick({
+			dots: false,
+			slidesToShow: 5,
+			lazyLoad: "ondemand",
+			responsive: [
+				{
+					breakpoint: 1000,
+					settings: {
+						slidesToShow: 5,
+					},
+				},
+				{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 3,
+					},
+				},
+				{
+					breakpoint: 480,
+					settings: {
+						slidesToShow: 2,
+					},
+				},
+			],
+		});
 	}
 
 	if ($("body.categoria").length) {
