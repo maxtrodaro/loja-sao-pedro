@@ -1163,7 +1163,7 @@ p.welcome em a:hover {
   display: block;
   width: 25px;
   height: 25px;
-  background: url("/arquivos/icon-mobile-back.png") no-repeat 0px 5px;
+  background: url("/arquivos/icon-mobile-back.png?v=1") no-repeat 0px 5px;
   position: absolute;
   left: 10px;
   top: 13px;
