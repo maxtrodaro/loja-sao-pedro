@@ -1747,22 +1747,6 @@ $(function () {
 		$("a.buy-button").text("Adicionar ao carrinho");
 
 		if (mobile == "sim") {
-			$(document).on("change", function () {
-				if ($("#prices .valor-dividido.price-installments").is(":visible")) {
-					$("#prices .descricao-preco").css("padding-bottom", "50px");
-				}
-			});
-
-			if ($(".btn-buy .notifyme").is(":visible")) {
-				$("#buy-product").css("margin-top", "200px");
-			}
-
-			$(document).on("change", function () {
-				if ($("#buy-product .success").is(":visible")) {
-					$("#buy-product").css("margin-top", "80px");
-				}
-			});
-
 			slickProductMobile();
 
 			$("#productSelect .skuList label").on("click", function () {
@@ -1916,14 +1900,17 @@ $(window).load(function () {
 	if ($("body.produto").length) {
 		$("#btnFreteSimulacao").click(function () {
 			$(".cep-busca").hide();
-			if (mobile == "sim") {
-				$("#buy-product .btn-buy").css("top", "320px");
-			}
+
+			setTimeout(() => {
+				$.each($(".freight-values tr"), function () {
+					if ($(this).find("td + td").text().includes("Frete Retirada"))
+						$(this).hide();
+				});
+			}, 1000);
 		});
 
 		//inclui um texto no input de CEP
 		$("input#txtCep").attr("placeholder", "Digite o CEP");
-
 
 		$(".shelf-carousel.collection > div > ul").slick({
 			dots: false,

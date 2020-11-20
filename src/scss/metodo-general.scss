@@ -9778,7 +9778,7 @@ nav.nav-menu {
 			margin-top: 40px;
 
 			@media #{$mobile} {
-				justify-content: center;
+				flex-direction: column;
 			}
 
 			>p {
@@ -9849,8 +9849,7 @@ nav.nav-menu {
 				width: 65%;
 
 				@media #{$mobile} {
-					position: absolute;
-					top: 210px;
+					margin-top: 20px;
 					width: 100%;
 				}
 
@@ -10127,7 +10126,7 @@ nav.nav-menu {
 		flex-direction: column;
 
 		@media #{$mobile} {
-			margin-top: 120px;
+			margin-top: 30px;
 		}
 
 		.titles {
