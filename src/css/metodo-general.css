@@ -2869,10 +2869,6 @@ div#content-banners-02 {
   font-weight: normal;
   margin-bottom: 10px; }
 
-.gtc-filtro .menu-departamento div,
-.gtc-filtro .menu-departamento ul:not(.productClusterSearchableIds) {
-  display: block; }
-
 .gtc-filtro fieldset {
   margin-bottom: 20px; }
 
@@ -7015,7 +7011,7 @@ footer#footer .col {
   .prateleira li article h1 {
     font-size: 16px;
     line-height: 19px;
-    min-height: 6em; } }
+    min-height: 5em; } }
 
 @media only screen and (max-width: 620px) {
   /*prateleira*/
@@ -8312,7 +8308,7 @@ nav.nav-menu > ul.ready > li > a {
   .prateleira li h1 {
     font-size: 0.85714rem;
     color: #575757;
-    margin-bottom: 10px;
+    margin: 10px 0;
     min-height: 50px;
     position: relative; }
     @media (max-width: 767px) {
@@ -8497,16 +8493,32 @@ body.busca #tarja {
   color: #cf0c1c;
   font-weight: 600; }
 
-#sidebar .search-single-navigator .Marca a {
-  font-size: 0.85714rem;
-  border: none;
-  color: #575757;
-  margin-left: 10px; }
-  #sidebar .search-single-navigator .Marca a .qtd-filter {
-    display: none; }
+#sidebar .search-single-navigator .Marca,
+#sidebar .search-single-navigator .Tamanho {
+  display: block !important; }
+  #sidebar .search-single-navigator .Marca a,
+  #sidebar .search-single-navigator .Tamanho a {
+    font-size: 0.85714rem;
+    border: none;
+    color: #575757; }
+    #sidebar .search-single-navigator .Marca a .qtd-filter,
+    #sidebar .search-single-navigator .Tamanho a .qtd-filter {
+      display: none; }
+  #sidebar .search-single-navigator .Marca:hover a,
+  #sidebar .search-single-navigator .Tamanho:hover a {
+    font-weight: 700; }
 
-#sidebar .search-single-navigator .Marca:hover a {
-  font-weight: 700; }
+#sidebar .search-single-navigator > ul.even {
+  display: block !important;
+  padding: 0 10px; }
+  #sidebar .search-single-navigator > ul.even li a {
+    font-size: 0.85714rem;
+    border: none;
+    color: #575757; }
+    #sidebar .search-single-navigator > ul.even li a .qtd-filter {
+      display: none; }
+  #sidebar .search-single-navigator > ul.even li:hover a {
+    font-weight: 700; }
 
 #side-products .orderBy select {
   font-size: 0.85714rem;
@@ -8578,29 +8590,47 @@ body.busca #tarja {
     font-size: 1rem;
     color: #cf0c1c;
     font-weight: 700; }
-  .topo-categoria .gtc-filtro .menu-departamento .Marca {
+  .topo-categoria .gtc-filtro .menu-departamento .Marca,
+  .topo-categoria .gtc-filtro .menu-departamento .Tamanho {
     display: block !important; }
-    .topo-categoria .gtc-filtro .menu-departamento .Marca a {
+    .topo-categoria .gtc-filtro .menu-departamento .Marca a,
+    .topo-categoria .gtc-filtro .menu-departamento .Tamanho a {
       font-size: 0.85714rem;
-      color: #404040;
-      font-weight: 700;
-      border: none; }
-      .topo-categoria .gtc-filtro .menu-departamento .Marca a .qtd-filter {
+      border: none;
+      color: #575757; }
+      .topo-categoria .gtc-filtro .menu-departamento .Marca a .qtd-filter,
+      .topo-categoria .gtc-filtro .menu-departamento .Tamanho a .qtd-filter {
         display: none; }
+    .topo-categoria .gtc-filtro .menu-departamento .Marca:hover a,
+    .topo-categoria .gtc-filtro .menu-departamento .Tamanho:hover a {
+      font-weight: 700; }
+  .topo-categoria .gtc-filtro .menu-departamento ul.even {
+    display: block !important;
+    padding: 0 10px; }
+    .topo-categoria .gtc-filtro .menu-departamento ul.even li a {
+      font-size: 0.85714rem;
+      border: none;
+      color: #575757; }
+      .topo-categoria .gtc-filtro .menu-departamento ul.even li a .qtd-filter {
+        display: none; }
+    .topo-categoria .gtc-filtro .menu-departamento ul.even li:hover a {
+      font-weight: 700; }
 
 .topo-categoria .show-filter span,
 .topo-categoria .show-order span {
   border: 1px solid #cf0c1c;
   color: #cf0c1c; }
 
-.topo-categoria .show-filter.filter-ativo, .topo-categoria .show-filter:hover,
+.topo-categoria .show-filter.filter-ativo, .topo-categoria .show-filter.show-order, .topo-categoria .show-filter:hover,
 .topo-categoria .show-order.filter-ativo,
+.topo-categoria .show-order.show-order,
 .topo-categoria .show-order:hover {
   background: #fff; }
-  .topo-categoria .show-filter.filter-ativo span, .topo-categoria .show-filter:hover span,
+  .topo-categoria .show-filter.filter-ativo span, .topo-categoria .show-filter.show-order span, .topo-categoria .show-filter:hover span,
   .topo-categoria .show-order.filter-ativo span,
+  .topo-categoria .show-order.show-order span,
   .topo-categoria .show-order:hover span {
-    color: #fff; }
+    color: #cf0c1c; }
 
 body {
   font-family: "Lato", sans-serif !important; }

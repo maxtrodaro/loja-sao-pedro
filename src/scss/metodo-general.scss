@@ -3205,11 +3205,6 @@ div#content-banners-02 {
 	margin-bottom: 10px
 }
 
-.gtc-filtro .menu-departamento div,
-.gtc-filtro .menu-departamento ul:not(.productClusterSearchableIds) {
-	display: block
-}
-
 .gtc-filtro fieldset {
 	margin-bottom: 20px
 }
@@ -8320,7 +8315,7 @@ footer#footer .col {
 	.prateleira li article h1 {
 		font-size: 16px;
 		line-height: 19px;
-		min-height: 6em;
+		min-height: 5em;
 	}
 }
 
@@ -10305,7 +10300,7 @@ nav.nav-menu {
 		h1 {
 			@include font-size-rem(12);
 			color: $font-color;
-			margin-bottom: 10px;
+			margin: 10px 0;
 			min-height: 50px;
 			position: relative;
 
@@ -10573,12 +10568,14 @@ body.busca {
 			font-weight: $font-weight-semibold
 		}
 
-		.Marca {
+		.Marca,
+		.Tamanho {
+			display: block !important;
+
 			a {
 				@include font-size-rem(12);
 				border: none;
 				color: $font-color;
-				margin-left: 10px;
 
 				.qtd-filter {
 					display: none;
@@ -10588,6 +10585,29 @@ body.busca {
 			&:hover {
 				a {
 					font-weight: $font-weight-bold;
+				}
+			}
+		}
+
+		> ul.even {
+			display: block !important;
+			padding: 0 10px;
+
+			li {
+				a {
+					@include font-size-rem(12);
+					border: none;
+					color: $font-color;
+
+					.qtd-filter {
+						display: none;
+					}
+				}
+
+				&:hover {
+					a {
+						font-weight: $font-weight-bold;
+					}
 				}
 			}
 		}
@@ -10702,20 +10722,49 @@ body.busca {
 				font-weight: $font-weight-bold;
 			}
 
-			.Marca {
-				display: block !important;
+		.Marca,
+		.Tamanho {
+			display: block !important;
 
+			a {
+				@include font-size-rem(12);
+				border: none;
+				color: $font-color;
+
+				.qtd-filter {
+					display: none;
+				}
+			}
+
+			&:hover {
+				a {
+					font-weight: $font-weight-bold;
+				}
+			}
+		}
+
+		ul.even {
+			display: block !important;
+			padding: 0 10px;
+
+			li {
 				a {
 					@include font-size-rem(12);
-					color: $grey;
-					font-weight: $font-weight-bold;
 					border: none;
+					color: $font-color;
 
 					.qtd-filter {
 						display: none;
 					}
 				}
+
+				&:hover {
+					a {
+						font-weight: $font-weight-bold;
+					}
+				}
 			}
+		}
 		}
 	}
 
@@ -10727,11 +10776,12 @@ body.busca {
 		}
 
 		&.filter-ativo,
+		&.show-order,
 		&:hover {
 			background: $tertiary-color;
 
 			span {
-				color: $white;
+				color: $primary-color;
 			}
 		}
 	}
