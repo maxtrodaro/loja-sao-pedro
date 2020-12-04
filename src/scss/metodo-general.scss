@@ -10081,6 +10081,519 @@ nav.nav-menu {
 						input:checked {
 							+ label {
 								border: 5px solid $primary-color !important;
+
+								&.skuespec_ {
+									&Amarelo {
+										border: 5px solid #FFFF00 !important;
+									}
+
+									&Azul {
+										border: 5px solid #0000FF !important;
+									}
+
+									&Azulbebe {
+										border: 5px solid #87CEEB !important;
+									}
+
+									&Azulclaro {
+										border: 5px solid #00BFFF !important;
+									}
+
+									&Azulescuro {
+										border: 5px solid #00008B !important;
+									}
+
+									&Azulpiscina {
+										border: 5px solid #1E90FF !important;
+									}
+
+									&Azulturquesa {
+										border: 5px solid #4682B4 !important;
+									}
+
+									&Beje {
+										border: 5px solid #F5F5DC !important;
+									}
+
+									&Bordo {
+										border: 5px solid #8B0000 !important;
+									}
+
+									&Branco {
+										border: 5px solid #FFFAFA !important;
+									}
+
+									&Cafe {
+										border: 5px solid #8B4513 !important;
+									}
+
+									&Caramelo {
+										border: 5px solid #D2691E !important;
+									}
+
+									&Castanho {
+										border: 5px solid #A52A2A !important;
+									}
+
+									&Chumbo {
+										border: 5px solid #1C1C1C !important;
+									}
+
+									&Cinza {
+										border: 5px solid #808080 !important;
+									}
+
+									&Coral {
+										border: 5px solid #FF7F50 !important;
+									}
+
+									&Creme {
+										border: 5px solid #F5FFFA !important;
+									}
+
+									&Dv {
+										border: 5px solid #F0FFF0 !important;
+									}
+
+									&Framboesa {
+										border: 5px solid #C71585 !important;
+									}
+
+									&Goiaba {
+										border: 5px solid #F08080 !important;
+									}
+
+									&Grafite {
+										border: 5px solid #696969 !important;
+									}
+
+									&Jeans {
+										border: 5px solid #191970 !important;
+									}
+
+									&Laranja {
+										border: 5px solid #FFA500 !important;
+									}
+
+									&Lilas {
+										border: 5px solid #9370DB !important;
+									}
+
+									&Linho {
+										border: 5px solid #FAF0E6 !important;
+									}
+
+									&Magenta {
+										border: 5px solid #8B008B !important;
+									}
+
+									&Marfim {
+										border: 5px solid #FFFFF0 !important;
+									}
+
+									&Marinho {
+										border: 5px solid #000080 !important;
+									}
+
+									&Marrom {
+										border: 5px solid #8B4513 !important;
+									}
+
+									&Marsala {
+										border: 5px solid #800000 !important;
+									}
+
+									&Mescla {
+										border: 5px solid #A9A9A9 !important;
+									}
+
+									&Mostarda {
+										border: 5px solid #DAA520 !important;
+									}
+
+									&Nude {
+										border: 5px solid #DEB887 !important;
+									}
+
+									&Ouro {
+										border: 5px solid #FFD700 !important;
+									}
+
+									&Perola {
+										border: 5px solid #FFF5EE !important;
+									}
+
+									&Prata {
+										border: 5px solid #C0C0C0 !important;
+									}
+
+									&Preto {
+										border: 5px solid #000 !important;
+									}
+
+									&Rosa {
+										border: 5px solid #FF1493 !important;
+									}
+
+									&Rose {
+										border: 5px solid #FF69B4 !important;
+									}
+
+									&Roxo {
+										border: 5px solid #A020F0 !important;
+									}
+
+									&Salmao {
+										border: 5px solid #FA8072 !important;
+									}
+
+									&Terracota {
+										border: 5px solid #CD853F !important;
+									}
+
+									&Verde {
+										border: 5px solid #008000 !important;
+									}
+
+									&Verdeescuro {
+										border: 5px solid #006400 !important;
+									}
+
+									&Verdemilitar {
+										border: 5px solid #228B22 !important;
+									}
+
+									&Verdemusgo {
+										border: 5px solid #556B2F !important;
+									}
+
+									&Vermelho {
+										border: 5px solid #ff0000 !important;
+									}
+
+									&Vinho {
+										border: 5px solid #8B0000 !important;
+									}
+
+									&Violeta {
+										border: 5px solid #8A2BE2 !important;
+									}
+
+									&Azul-preto {
+										border-top-color: #0000FF !important;
+										border-top-style: solid !important;
+										border-top-width: 5px !important;
+										border-right-color: #000000 !important;
+										border-right-style: solid !important;
+										border-right-width: 5px !important;
+										border-bottom-color: #0000FF !important;
+										border-bottom-style: solid !important;
+										border-bottom-width: 5px !important;
+										border-left-color: #000000 !important;
+										border-left-style: solid !important;
+										border-left-width: 5px !important;
+									}
+
+									&Azul-rosa {
+										border-top-color: #0000FF !important;
+										border-top-style: solid !important;
+										border-top-width: 5px !important;
+										border-right-color: #FF1493 !important;
+										border-right-style: solid !important;
+										border-right-width: 5px !important;
+										border-bottom-color: #0000FF !important;
+										border-bottom-style: solid !important;
+										border-bottom-width: 5px !important;
+										border-left-color: #FF1493 !important;
+										border-left-style: solid !important;
+										border-left-width: 5px !important;
+									}
+
+									&Azul-verde {
+										border-top-color: #0000FF !important;
+										border-top-style: solid !important;
+										border-top-width: 5px !important;
+										border-right-color: #008000 !important;
+										border-right-style: solid !important;
+										border-right-width: 5px !important;
+										border-bottom-color: #0000FF !important;
+										border-bottom-style: solid !important;
+										border-bottom-width: 5px !important;
+										border-left-color: #008000 !important;
+										border-left-style: solid !important;
+										border-left-width: 5px !important;
+									}
+
+									&Beje-roxo {
+										border-top-color: #F5F5DC !important;
+										border-top-style: solid !important;
+										border-top-width: 5px !important;
+										border-right-color: #A020F0 !important;
+										border-right-style: solid !important;
+										border-right-width: 5px !important;
+										border-bottom-color: #F5F5DC !important;
+										border-bottom-style: solid !important;
+										border-bottom-width: 5px !important;
+										border-left-color: #A020F0 !important;
+										border-left-style: solid !important;
+										border-left-width: 5px !important;
+									}
+
+									&Bordo-caramelo {
+										border-top-color: #8B0000 !important;
+										border-top-style: solid !important;
+										border-top-width: 5px !important;
+										border-right-color: #D2691E !important;
+										border-right-style: solid !important;
+										border-right-width: 5px !important;
+										border-bottom-color: #8B0000 !important;
+										border-bottom-style: solid !important;
+										border-bottom-width: 5px !important;
+										border-left-color: #D2691E !important;
+										border-left-style: solid !important;
+										border-left-width: 5px !important;
+									}
+
+									&Branco-azul {
+										border-top-color: #FFFAFA !important;
+										border-top-style: solid !important;
+										border-top-width: 5px !important;
+										border-right-color: #0000FF !important;
+										border-right-style: solid !important;
+										border-right-width: 5px !important;
+										border-bottom-color: #FFFAFA !important;
+										border-bottom-style: solid !important;
+										border-bottom-width: 5px !important;
+										border-left-color: #0000FF !important;
+										border-left-style: solid !important;
+										border-left-width: 5px !important;
+									}
+
+									&Branco-cinza {
+										border-top-color: #FFFAFA !important;
+										border-top-style: solid !important;
+										border-top-width: 5px !important;
+										border-right-color: #808080 !important;
+										border-right-style: solid !important;
+										border-right-width: 5px !important;
+										border-bottom-color: #FFFAFA !important;
+										border-bottom-style: solid !important;
+										border-bottom-width: 5px !important;
+										border-left-color: #808080 !important;
+										border-left-style: solid !important;
+										border-left-width: 5px !important;
+									}
+
+									&Branco-rosa {
+										border-top-color: #FFFAFA !important;
+										border-top-style: solid !important;
+										border-top-width: 5px !important;
+										border-right-color: #FF1493 !important;
+										border-right-style: solid !important;
+										border-right-width: 5px !important;
+										border-bottom-color: #FFFAFA !important;
+										border-bottom-style: solid !important;
+										border-bottom-width: 5px !important;
+										border-left-color: #FF1493 !important;
+										border-left-style: solid !important;
+										border-left-width: 5px !important;
+									}
+
+									&Branco-roxo {
+										border-top-color: #FFFAFA !important;
+										border-top-style: solid !important;
+										border-top-width: 5px !important;
+										border-right-color: #A020F0 !important;
+										border-right-style: solid !important;
+										border-right-width: 5px !important;
+										border-bottom-color: #FFFAFA !important;
+										border-bottom-style: solid !important;
+										border-bottom-width: 5px !important;
+										border-left-color: #A020F0 !important;
+										border-left-style: solid !important;
+										border-left-width: 5px !important;
+									}
+
+									&Branco-verde {
+										border-top-color: #FFFAFA !important;
+										border-top-style: solid !important;
+										border-top-width: 5px !important;
+										border-right-color: #008000 !important;
+										border-right-style: solid !important;
+										border-right-width: 5px !important;
+										border-bottom-color: #FFFAFA !important;
+										border-bottom-style: solid !important;
+										border-bottom-width: 5px !important;
+										border-left-color: #008000 !important;
+										border-left-style: solid !important;
+										border-left-width: 5px !important;
+									}
+
+									&Caramelo-cafe {
+										border-top-color: #D2691E !important;
+										border-top-style: solid !important;
+										border-top-width: 5px !important;
+										border-right-color: #8B4513 !important;
+										border-right-style: solid !important;
+										border-right-width: 5px !important;
+										border-bottom-color: #D2691E !important;
+										border-bottom-style: solid !important;
+										border-bottom-width: 5px !important;
+										border-left-color: #8B4513 !important;
+										border-left-style: solid !important;
+										border-left-width: 5px !important;
+									}
+
+									&Grafite-vermelho {
+										border-top-color: #696969 !important;
+										border-top-style: solid !important;
+										border-top-width: 5px !important;
+										border-right-color: #FF0000 !important;
+										border-right-style: solid !important;
+										border-right-width: 5px !important;
+										border-bottom-color: #696969 !important;
+										border-bottom-style: solid !important;
+										border-bottom-width: 5px !important;
+										border-left-color: #FF0000 !important;
+										border-left-style: solid !important;
+										border-left-width: 5px !important;
+									}
+
+									&Marinho-gelo {
+										border-top-color: #000080 !important;
+										border-top-style: solid !important;
+										border-top-width: 5px !important;
+										border-right-color: #F8F8FF !important;
+										border-right-style: solid !important;
+										border-right-width: 5px !important;
+										border-bottom-color: #000080 !important;
+										border-bottom-style: solid !important;
+										border-bottom-width: 5px !important;
+										border-left-color: #F8F8FF !important;
+										border-left-style: solid !important;
+										border-left-width: 5px !important;
+									}
+
+									&Marinho-laranja {
+										border-top-color: #000080 !important;
+										border-top-style: solid !important;
+										border-top-width: 5px !important;
+										border-right-color: #FFA500 !important;
+										border-right-style: solid !important;
+										border-right-width: 5px !important;
+										border-bottom-color: #000080 !important;
+										border-bottom-style: solid !important;
+										border-bottom-width: 5px !important;
+										border-left-color: #FFA500 !important;
+										border-left-style: solid !important;
+										border-left-width: 5px !important;
+									}
+
+									&Marinho-vermelho {
+										border-top-color: #000080 !important;
+										border-top-style: solid !important;
+										border-top-width: 5px !important;
+										border-right-color: #FF0000 !important;
+										border-right-style: solid !important;
+										border-right-width: 5px !important;
+										border-bottom-color: #000080 !important;
+										border-bottom-style: solid !important;
+										border-bottom-width: 5px !important;
+										border-left-color: #FF0000 !important;
+										border-left-style: solid !important;
+										border-left-width: 5px !important;
+									}
+
+									&Marrom-azul {
+										border-top-color: #8B4513 !important;
+										border-top-style: solid !important;
+										border-top-width: 5px !important;
+										border-right-color: #0000FF !important;
+										border-right-style: solid !important;
+										border-right-width: 5px !important;
+										border-bottom-color: #8B4513 !important;
+										border-bottom-style: solid !important;
+										border-bottom-width: 5px !important;
+										border-left-color: #0000FF !important;
+										border-left-style: solid !important;
+										border-left-width: 5px !important;
+									}
+
+									&Preto-branco {
+										border-top-color: #000000 !important;
+										border-top-style: solid !important;
+										border-top-width: 5px !important;
+										border-right-color: #FFFAFA !important;
+										border-right-style: solid !important;
+										border-right-width: 5px !important;
+										border-bottom-color: #000000 !important;
+										border-bottom-style: solid !important;
+										border-bottom-width: 5px !important;
+										border-left-color: #FFFAFA !important;
+										border-left-style: solid !important;
+										border-left-width: 5px !important;
+									}
+
+									&Preto-cinza {
+										border-top-color: #000000 !important;
+										border-top-style: solid !important;
+										border-top-width: 5px !important;
+										border-right-color: #808080 !important;
+										border-right-style: solid !important;
+										border-right-width: 5px !important;
+										border-bottom-color: #000000 !important;
+										border-bottom-style: solid !important;
+										border-bottom-width: 5px !important;
+										border-left-color: #808080 !important;
+										border-left-style: solid !important;
+										border-left-width: 5px !important;
+									}
+
+									&Preto-rosa {
+										border-top-color: #000000 !important;
+										border-top-style: solid !important;
+										border-top-width: 5px !important;
+										border-right-color: #FF1493 !important;
+										border-right-style: solid !important;
+										border-right-width: 5px !important;
+										border-bottom-color: #000000 !important;
+										border-bottom-style: solid !important;
+										border-bottom-width: 5px !important;
+										border-left-color: #FF1493 !important;
+										border-left-style: solid !important;
+										border-left-width: 5px !important;
+									}
+
+									&Vermelho-preto {
+										border-top-color: #FF0000 !important;
+										border-top-style: solid !important;
+										border-top-width: 5px !important;
+										border-right-color: #000000 !important;
+										border-right-style: solid !important;
+										border-right-width: 5px !important;
+										border-bottom-color: #FF0000 !important;
+										border-bottom-style: solid !important;
+										border-bottom-width: 5px !important;
+										border-left-color: #000000 !important;
+										border-left-style: solid !important;
+										border-left-width: 5px !important;
+									}
+
+									&Vermelho-branco {
+										border-top-color: #8B0000 !important;
+										border-top-style: solid !important;
+										border-top-width: 5px !important;
+										border-right-color: #FFFAFA !important;
+										border-right-style: solid !important;
+										border-right-width: 5px !important;
+										border-bottom-color: #8B0000 !important;
+										border-bottom-style: solid !important;
+										border-bottom-width: 5px !important;
+										border-left-color: #FFFAFA !important;
+										border-left-style: solid !important;
+										border-left-width: 5px !important;
+									}
+								}
 							}
 						}
 

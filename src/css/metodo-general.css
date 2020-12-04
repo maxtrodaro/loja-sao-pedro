@@ -8172,6 +8172,377 @@ nav.nav-menu > ul.ready > li > a {
       align-items: center; }
     #main-product #about-product #productSelect ul.topic li.select input:checked + label, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label {
       border: 5px solid #cf0c1c !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Amarelo, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Amarelo {
+        border: 5px solid #FFFF00 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Azul, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Azul {
+        border: 5px solid #0000FF !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Azulbebe, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Azulbebe {
+        border: 5px solid #87CEEB !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Azulclaro, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Azulclaro {
+        border: 5px solid #00BFFF !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Azulescuro, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Azulescuro {
+        border: 5px solid #00008B !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Azulpiscina, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Azulpiscina {
+        border: 5px solid #1E90FF !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Azulturquesa, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Azulturquesa {
+        border: 5px solid #4682B4 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Beje, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Beje {
+        border: 5px solid #F5F5DC !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Bordo, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Bordo {
+        border: 5px solid #8B0000 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Branco, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Branco {
+        border: 5px solid #FFFAFA !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Cafe, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Cafe {
+        border: 5px solid #8B4513 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Caramelo, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Caramelo {
+        border: 5px solid #D2691E !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Castanho, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Castanho {
+        border: 5px solid #A52A2A !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Chumbo, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Chumbo {
+        border: 5px solid #1C1C1C !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Cinza, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Cinza {
+        border: 5px solid #808080 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Coral, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Coral {
+        border: 5px solid #FF7F50 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Creme, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Creme {
+        border: 5px solid #F5FFFA !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Dv, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Dv {
+        border: 5px solid #F0FFF0 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Framboesa, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Framboesa {
+        border: 5px solid #C71585 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Goiaba, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Goiaba {
+        border: 5px solid #F08080 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Grafite, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Grafite {
+        border: 5px solid #696969 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Jeans, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Jeans {
+        border: 5px solid #191970 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Laranja, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Laranja {
+        border: 5px solid #FFA500 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Lilas, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Lilas {
+        border: 5px solid #9370DB !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Linho, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Linho {
+        border: 5px solid #FAF0E6 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Magenta, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Magenta {
+        border: 5px solid #8B008B !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Marfim, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Marfim {
+        border: 5px solid #FFFFF0 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Marinho, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Marinho {
+        border: 5px solid #000080 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Marrom, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Marrom {
+        border: 5px solid #8B4513 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Marsala, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Marsala {
+        border: 5px solid #800000 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Mescla, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Mescla {
+        border: 5px solid #A9A9A9 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Mostarda, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Mostarda {
+        border: 5px solid #DAA520 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Nude, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Nude {
+        border: 5px solid #DEB887 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Ouro, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Ouro {
+        border: 5px solid #FFD700 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Perola, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Perola {
+        border: 5px solid #FFF5EE !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Prata, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Prata {
+        border: 5px solid #C0C0C0 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Preto, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Preto {
+        border: 5px solid #000 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Rosa, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Rosa {
+        border: 5px solid #FF1493 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Rose, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Rose {
+        border: 5px solid #FF69B4 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Roxo, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Roxo {
+        border: 5px solid #A020F0 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Salmao, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Salmao {
+        border: 5px solid #FA8072 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Terracota, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Terracota {
+        border: 5px solid #CD853F !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Verde, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Verde {
+        border: 5px solid #008000 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Verdeescuro, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Verdeescuro {
+        border: 5px solid #006400 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Verdemilitar, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Verdemilitar {
+        border: 5px solid #228B22 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Verdemusgo, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Verdemusgo {
+        border: 5px solid #556B2F !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Vermelho, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Vermelho {
+        border: 5px solid #ff0000 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Vinho, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Vinho {
+        border: 5px solid #8B0000 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Violeta, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Violeta {
+        border: 5px solid #8A2BE2 !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Azul-preto, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Azul-preto {
+        border-top-color: #0000FF !important;
+        border-top-style: solid !important;
+        border-top-width: 5px !important;
+        border-right-color: #000000 !important;
+        border-right-style: solid !important;
+        border-right-width: 5px !important;
+        border-bottom-color: #0000FF !important;
+        border-bottom-style: solid !important;
+        border-bottom-width: 5px !important;
+        border-left-color: #000000 !important;
+        border-left-style: solid !important;
+        border-left-width: 5px !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Azul-rosa, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Azul-rosa {
+        border-top-color: #0000FF !important;
+        border-top-style: solid !important;
+        border-top-width: 5px !important;
+        border-right-color: #FF1493 !important;
+        border-right-style: solid !important;
+        border-right-width: 5px !important;
+        border-bottom-color: #0000FF !important;
+        border-bottom-style: solid !important;
+        border-bottom-width: 5px !important;
+        border-left-color: #FF1493 !important;
+        border-left-style: solid !important;
+        border-left-width: 5px !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Azul-verde, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Azul-verde {
+        border-top-color: #0000FF !important;
+        border-top-style: solid !important;
+        border-top-width: 5px !important;
+        border-right-color: #008000 !important;
+        border-right-style: solid !important;
+        border-right-width: 5px !important;
+        border-bottom-color: #0000FF !important;
+        border-bottom-style: solid !important;
+        border-bottom-width: 5px !important;
+        border-left-color: #008000 !important;
+        border-left-style: solid !important;
+        border-left-width: 5px !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Beje-roxo, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Beje-roxo {
+        border-top-color: #F5F5DC !important;
+        border-top-style: solid !important;
+        border-top-width: 5px !important;
+        border-right-color: #A020F0 !important;
+        border-right-style: solid !important;
+        border-right-width: 5px !important;
+        border-bottom-color: #F5F5DC !important;
+        border-bottom-style: solid !important;
+        border-bottom-width: 5px !important;
+        border-left-color: #A020F0 !important;
+        border-left-style: solid !important;
+        border-left-width: 5px !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Bordo-caramelo, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Bordo-caramelo {
+        border-top-color: #8B0000 !important;
+        border-top-style: solid !important;
+        border-top-width: 5px !important;
+        border-right-color: #D2691E !important;
+        border-right-style: solid !important;
+        border-right-width: 5px !important;
+        border-bottom-color: #8B0000 !important;
+        border-bottom-style: solid !important;
+        border-bottom-width: 5px !important;
+        border-left-color: #D2691E !important;
+        border-left-style: solid !important;
+        border-left-width: 5px !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Branco-azul, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Branco-azul {
+        border-top-color: #FFFAFA !important;
+        border-top-style: solid !important;
+        border-top-width: 5px !important;
+        border-right-color: #0000FF !important;
+        border-right-style: solid !important;
+        border-right-width: 5px !important;
+        border-bottom-color: #FFFAFA !important;
+        border-bottom-style: solid !important;
+        border-bottom-width: 5px !important;
+        border-left-color: #0000FF !important;
+        border-left-style: solid !important;
+        border-left-width: 5px !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Branco-cinza, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Branco-cinza {
+        border-top-color: #FFFAFA !important;
+        border-top-style: solid !important;
+        border-top-width: 5px !important;
+        border-right-color: #808080 !important;
+        border-right-style: solid !important;
+        border-right-width: 5px !important;
+        border-bottom-color: #FFFAFA !important;
+        border-bottom-style: solid !important;
+        border-bottom-width: 5px !important;
+        border-left-color: #808080 !important;
+        border-left-style: solid !important;
+        border-left-width: 5px !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Branco-rosa, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Branco-rosa {
+        border-top-color: #FFFAFA !important;
+        border-top-style: solid !important;
+        border-top-width: 5px !important;
+        border-right-color: #FF1493 !important;
+        border-right-style: solid !important;
+        border-right-width: 5px !important;
+        border-bottom-color: #FFFAFA !important;
+        border-bottom-style: solid !important;
+        border-bottom-width: 5px !important;
+        border-left-color: #FF1493 !important;
+        border-left-style: solid !important;
+        border-left-width: 5px !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Branco-roxo, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Branco-roxo {
+        border-top-color: #FFFAFA !important;
+        border-top-style: solid !important;
+        border-top-width: 5px !important;
+        border-right-color: #A020F0 !important;
+        border-right-style: solid !important;
+        border-right-width: 5px !important;
+        border-bottom-color: #FFFAFA !important;
+        border-bottom-style: solid !important;
+        border-bottom-width: 5px !important;
+        border-left-color: #A020F0 !important;
+        border-left-style: solid !important;
+        border-left-width: 5px !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Branco-verde, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Branco-verde {
+        border-top-color: #FFFAFA !important;
+        border-top-style: solid !important;
+        border-top-width: 5px !important;
+        border-right-color: #008000 !important;
+        border-right-style: solid !important;
+        border-right-width: 5px !important;
+        border-bottom-color: #FFFAFA !important;
+        border-bottom-style: solid !important;
+        border-bottom-width: 5px !important;
+        border-left-color: #008000 !important;
+        border-left-style: solid !important;
+        border-left-width: 5px !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Caramelo-cafe, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Caramelo-cafe {
+        border-top-color: #D2691E !important;
+        border-top-style: solid !important;
+        border-top-width: 5px !important;
+        border-right-color: #8B4513 !important;
+        border-right-style: solid !important;
+        border-right-width: 5px !important;
+        border-bottom-color: #D2691E !important;
+        border-bottom-style: solid !important;
+        border-bottom-width: 5px !important;
+        border-left-color: #8B4513 !important;
+        border-left-style: solid !important;
+        border-left-width: 5px !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Grafite-vermelho, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Grafite-vermelho {
+        border-top-color: #696969 !important;
+        border-top-style: solid !important;
+        border-top-width: 5px !important;
+        border-right-color: #FF0000 !important;
+        border-right-style: solid !important;
+        border-right-width: 5px !important;
+        border-bottom-color: #696969 !important;
+        border-bottom-style: solid !important;
+        border-bottom-width: 5px !important;
+        border-left-color: #FF0000 !important;
+        border-left-style: solid !important;
+        border-left-width: 5px !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Marinho-gelo, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Marinho-gelo {
+        border-top-color: #000080 !important;
+        border-top-style: solid !important;
+        border-top-width: 5px !important;
+        border-right-color: #F8F8FF !important;
+        border-right-style: solid !important;
+        border-right-width: 5px !important;
+        border-bottom-color: #000080 !important;
+        border-bottom-style: solid !important;
+        border-bottom-width: 5px !important;
+        border-left-color: #F8F8FF !important;
+        border-left-style: solid !important;
+        border-left-width: 5px !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Marinho-laranja, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Marinho-laranja {
+        border-top-color: #000080 !important;
+        border-top-style: solid !important;
+        border-top-width: 5px !important;
+        border-right-color: #FFA500 !important;
+        border-right-style: solid !important;
+        border-right-width: 5px !important;
+        border-bottom-color: #000080 !important;
+        border-bottom-style: solid !important;
+        border-bottom-width: 5px !important;
+        border-left-color: #FFA500 !important;
+        border-left-style: solid !important;
+        border-left-width: 5px !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Marinho-vermelho, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Marinho-vermelho {
+        border-top-color: #000080 !important;
+        border-top-style: solid !important;
+        border-top-width: 5px !important;
+        border-right-color: #FF0000 !important;
+        border-right-style: solid !important;
+        border-right-width: 5px !important;
+        border-bottom-color: #000080 !important;
+        border-bottom-style: solid !important;
+        border-bottom-width: 5px !important;
+        border-left-color: #FF0000 !important;
+        border-left-style: solid !important;
+        border-left-width: 5px !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Marrom-azul, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Marrom-azul {
+        border-top-color: #8B4513 !important;
+        border-top-style: solid !important;
+        border-top-width: 5px !important;
+        border-right-color: #0000FF !important;
+        border-right-style: solid !important;
+        border-right-width: 5px !important;
+        border-bottom-color: #8B4513 !important;
+        border-bottom-style: solid !important;
+        border-bottom-width: 5px !important;
+        border-left-color: #0000FF !important;
+        border-left-style: solid !important;
+        border-left-width: 5px !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Preto-branco, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Preto-branco {
+        border-top-color: #000000 !important;
+        border-top-style: solid !important;
+        border-top-width: 5px !important;
+        border-right-color: #FFFAFA !important;
+        border-right-style: solid !important;
+        border-right-width: 5px !important;
+        border-bottom-color: #000000 !important;
+        border-bottom-style: solid !important;
+        border-bottom-width: 5px !important;
+        border-left-color: #FFFAFA !important;
+        border-left-style: solid !important;
+        border-left-width: 5px !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Preto-cinza, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Preto-cinza {
+        border-top-color: #000000 !important;
+        border-top-style: solid !important;
+        border-top-width: 5px !important;
+        border-right-color: #808080 !important;
+        border-right-style: solid !important;
+        border-right-width: 5px !important;
+        border-bottom-color: #000000 !important;
+        border-bottom-style: solid !important;
+        border-bottom-width: 5px !important;
+        border-left-color: #808080 !important;
+        border-left-style: solid !important;
+        border-left-width: 5px !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Preto-rosa, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Preto-rosa {
+        border-top-color: #000000 !important;
+        border-top-style: solid !important;
+        border-top-width: 5px !important;
+        border-right-color: #FF1493 !important;
+        border-right-style: solid !important;
+        border-right-width: 5px !important;
+        border-bottom-color: #000000 !important;
+        border-bottom-style: solid !important;
+        border-bottom-width: 5px !important;
+        border-left-color: #FF1493 !important;
+        border-left-style: solid !important;
+        border-left-width: 5px !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Vermelho-preto, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Vermelho-preto {
+        border-top-color: #FF0000 !important;
+        border-top-style: solid !important;
+        border-top-width: 5px !important;
+        border-right-color: #000000 !important;
+        border-right-style: solid !important;
+        border-right-width: 5px !important;
+        border-bottom-color: #FF0000 !important;
+        border-bottom-style: solid !important;
+        border-bottom-width: 5px !important;
+        border-left-color: #000000 !important;
+        border-left-style: solid !important;
+        border-left-width: 5px !important; }
+      #main-product #about-product #productSelect ul.topic li.select input:checked + label.skuespec_Vermelho-branco, #main-product #about-product #productSelect ul.Tamanho li.select input:checked + label.skuespec_Vermelho-branco {
+        border-top-color: #8B0000 !important;
+        border-top-style: solid !important;
+        border-top-width: 5px !important;
+        border-right-color: #FFFAFA !important;
+        border-right-style: solid !important;
+        border-right-width: 5px !important;
+        border-bottom-color: #8B0000 !important;
+        border-bottom-style: solid !important;
+        border-bottom-width: 5px !important;
+        border-left-color: #FFFAFA !important;
+        border-left-style: solid !important;
+        border-left-width: 5px !important; }
     #main-product #about-product #productSelect ul.topic li.select label, #main-product #about-product #productSelect ul.Tamanho li.select label {
       font-size: 0.85714rem;
       border: 1px solid #c3c3c3 !important;
