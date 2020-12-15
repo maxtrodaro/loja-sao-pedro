@@ -87,7 +87,7 @@ input:focus {
 	margin: 0px;
 	padding: 0px;
 	outline: none !important;
-	font-family: "Lato", sans-serif !important;
+	font-family: "Lato", sans-serif;
 }
 
 i {
@@ -1843,6 +1843,15 @@ tr.product-item {
 	display: flex;
 	justify-content: space-between !important;
 	flex-wrap: wrap;
+
+	&::before,
+	&::after {
+		content: none;
+	}
+
+	.client-pre-email-h {
+		width: 100%;
+	}
 
 	&.summary {
 		&:before {
