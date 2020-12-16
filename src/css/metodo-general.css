@@ -89,7 +89,6 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
@@ -7623,7 +7622,7 @@ nav.nav-menu > ul.e-menu {
       display: none;
       position: absolute;
       left: initial;
-      top: 100%;
+      top: 95%;
       padding: 0;
       width: 20%;
       height: auto;
@@ -9002,6 +9001,10 @@ body.busca #tarja {
   .topo-categoria .show-order.show-order span,
   .topo-categoria .show-order:hover span {
     color: #cf0c1c; }
+
+.vtexIdUI .modal-header .close {
+  cursor: pointer;
+  display: block !important; }
 
 body {
   font-family: "Lato", sans-serif !important; }

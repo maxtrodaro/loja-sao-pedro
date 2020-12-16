@@ -9273,7 +9273,7 @@ nav.nav-menu {
 						display: none;
 						position: absolute;
 						left: initial;
-						top: 100%;
+						top: 95%;
 						padding: 0;
 						width: 20%;
 						height: auto;
@@ -11298,6 +11298,11 @@ body.busca {
 			}
 		}
 	}
+}
+
+.vtexIdUI .modal-header .close {
+	cursor: pointer;
+	display: block !important;
 }
 
 body {

@@ -13,96 +13,7 @@ var MenuConfig = function () {
 		response.map((res) => {
 			nameCategory = res.name;
 			urlCategory = res.url.split("/")[3];
-			if (mobile === "sim") {
-				$("#mob-header .menu-mobile .wrap ul > span").after(`
-					<li class="pai">
-						<a class="menu-item-texto">${nameCategory}</a>
-						<div class="nivel-1" style="display: none">
-							<div class="nivel-2">
-								<h2>${nameCategory}</h2>
-								<ul>
-									${
-										res.children &&
-										res.children[0] &&
-										`<li><a href=${res.children[0].url}>${res.children[0].name}</a></li>`
-									}
-									${
-										res.children &&
-										res.children[1] &&
-										`<li><a href=${res.children[1].url}>${res.children[1].name}</a></li>`
-									}
-									${
-										res.children &&
-										res.children[2] &&
-										`<li><a href=${res.children[2].url}>${res.children[2].name}</a></li>`
-									}
-									${
-										res.children &&
-										res.children[3] &&
-										`<li><a href=${res.children[3].url}>${res.children[3].name}</a></li>`
-									}
-									${
-										res.children &&
-										res.children[4] &&
-										`<li><a href=${res.children[4].url}>${res.children[4].name}</a></li>`
-									}
-									${
-										res.children &&
-										res.children[5] &&
-										`<li><a href=${res.children[5].url}>${res.children[5].name}</a></li>`
-									}
-									${
-										res.children &&
-										res.children[6] &&
-										`<li><a href=${res.children[6].url}>${res.children[6].name}</a></li>`
-									}
-									${
-										res.children &&
-										res.children[7] &&
-										`<li><a href=${res.children[7].url}>${res.children[7].name}</a></li>`
-									}
-									${
-										res.children &&
-										res.children[8] &&
-										`<li><a href=${res.children[8].url}>${res.children[8].name}</a></li>`
-									}
-									${
-										res.children &&
-										res.children[9] &&
-										`<li><a href=${res.children[9].url}>${res.children[9].name}</a></li>`
-									}
-									${
-										res.children &&
-										res.children[10] &&
-										`<li><a href=${res.children[10].url}>${res.children[10].name}</a></li>`
-									}
-									${
-										res.children &&
-										res.children[11] &&
-										`<li><a href=${res.children[11].url}>${res.children[11].name}</a></li>`
-									}
-									${
-										res.children &&
-										res.children[12] &&
-										`<li><a href=${res.children[12].url}>${res.children[12].name}</a></li>`
-									}
-									${
-										res.children &&
-										res.children[13] &&
-										`<li><a href=${res.children[13].url}>${res.children[13].name}</a></li>`
-									}
-									${
-										res.children &&
-										res.children[14] &&
-										`<li><a href=${res.children[14].url}>${res.children[14].name}</a></li>`
-									}
-								</ul>
-							</div>
-						</div>
-					</li>
-				`);
-			} else {
-				$("#nav-menu .e-menu").append(`
+			$("#nav-menu .e-menu").append(`
 				<li class="pai">
 					<a class="menu-item-texto" href=${urlCategory}>${nameCategory}</a>
 					<div class="nivel-1" style="display: none">
@@ -189,63 +100,95 @@ var MenuConfig = function () {
 					</div>
 				</li>
 			`);
-			}
+			$("#mob-header .menu-mobile .wrap ul > span").after(`
+					<li class="pai">
+						<a class="menu-item-texto">${nameCategory}</a>
+						<div class="nivel-1" style="display: none">
+							<div class="nivel-2">
+								<h2>${nameCategory}</h2>
+								<ul>
+									${
+										res.children &&
+										res.children[0] &&
+										`<li><a href=${res.children[0].url}>${res.children[0].name}</a></li>`
+									}
+									${
+										res.children &&
+										res.children[1] &&
+										`<li><a href=${res.children[1].url}>${res.children[1].name}</a></li>`
+									}
+									${
+										res.children &&
+										res.children[2] &&
+										`<li><a href=${res.children[2].url}>${res.children[2].name}</a></li>`
+									}
+									${
+										res.children &&
+										res.children[3] &&
+										`<li><a href=${res.children[3].url}>${res.children[3].name}</a></li>`
+									}
+									${
+										res.children &&
+										res.children[4] &&
+										`<li><a href=${res.children[4].url}>${res.children[4].name}</a></li>`
+									}
+									${
+										res.children &&
+										res.children[5] &&
+										`<li><a href=${res.children[5].url}>${res.children[5].name}</a></li>`
+									}
+									${
+										res.children &&
+										res.children[6] &&
+										`<li><a href=${res.children[6].url}>${res.children[6].name}</a></li>`
+									}
+									${
+										res.children &&
+										res.children[7] &&
+										`<li><a href=${res.children[7].url}>${res.children[7].name}</a></li>`
+									}
+									${
+										res.children &&
+										res.children[8] &&
+										`<li><a href=${res.children[8].url}>${res.children[8].name}</a></li>`
+									}
+									${
+										res.children &&
+										res.children[9] &&
+										`<li><a href=${res.children[9].url}>${res.children[9].name}</a></li>`
+									}
+									${
+										res.children &&
+										res.children[10] &&
+										`<li><a href=${res.children[10].url}>${res.children[10].name}</a></li>`
+									}
+									${
+										res.children &&
+										res.children[11] &&
+										`<li><a href=${res.children[11].url}>${res.children[11].name}</a></li>`
+									}
+									${
+										res.children &&
+										res.children[12] &&
+										`<li><a href=${res.children[12].url}>${res.children[12].name}</a></li>`
+									}
+									${
+										res.children &&
+										res.children[13] &&
+										`<li><a href=${res.children[13].url}>${res.children[13].name}</a></li>`
+									}
+									${
+										res.children &&
+										res.children[14] &&
+										`<li><a href=${res.children[14].url}>${res.children[14].name}</a></li>`
+									}
+								</ul>
+							</div>
+						</div>
+					</li>
+				`);
 		});
 	});
-
-	// $("#reference-menu").find(".brandFilter").remove();
-	$("#reference-menu")
-		.find("h3")
-		.each(function () {
-			var e = $(this);
-			var lnk = e.html();
-			var name = String(e.attr("class"));
-			var txt = e.text();
-			2;
-			if (name != "undefined") {
-				//preenche os departamentos
-				name = name.replace(" even", "");
-				console.log(name);
-				console.log(lnk);
-
-				if (e.next().find("li").length > 0) {
-					$("#nav-menu")
-						.find(">ul")
-						.append(
-							'<li class="pai ' +
-								name +
-								'">' +
-								lnk +
-								'<div class="nivel-1"><div class="nivel-2"><h2>' +
-								txt +
-								'</h2><ul></ul></div><div class="destaque-menu"></div></div></li>'
-						);
-				} else {
-					$("#nav-menu")
-						.find(">ul")
-						.append('<li class="pai ' + name + '">' + lnk + "</li>");
-				}
-			}
-		});
-
-	//preenche categorias
-	$("#reference-menu")
-		.find("ul")
-		.each(function () {
-			var e = $(this);
-			var ref = String(e.attr("class"));
-			ref = ref.replace(" even", "");
-			var content = e.html();
-			console.log(content);
-			if (content != "" && content != undefined) {
-				$("#nav-menu")
-					.find(">ul")
-					.find(">li." + ref)
-					.find(".nivel-2")
-					.find("ul")
-					.append(content);
-			}
-		});
 
 	$("#nav-menu").find(">ul").addClass("ready");
 
@@ -285,7 +228,7 @@ var MenuConfig = function () {
 			$(".l-login").removeClass("no-logged");
 			$(".l-login").addClass("logged");
 		}
-	}, 1000);
+	}, 1500);
 
 	//verifica a necessidade de dividir categorias em colunas
 	$("nav#nav-menu > ul > li .nivel-2").each(function () {
@@ -1938,6 +1881,10 @@ $(window).load(function () {
 			],
 		});
 	}
+
+	$(".vtexIdUI .modal-header .close").click(function () {
+		window.location.href = "/";
+	});
 
 	if ($("body.categoria").length) {
 		//insere background da cor no label do filtro por "Cor"
